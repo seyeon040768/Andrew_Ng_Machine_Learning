@@ -9,6 +9,6 @@
 **Regresstion(회귀)**   
 주어진 데이터를 바탕으로 값을 예측하는 것   
 ex) 평수로 주택 가격 예측   
-![](./Normdist_regression.png)
+![regresstion](./Normdist_regression.png)
 
 
