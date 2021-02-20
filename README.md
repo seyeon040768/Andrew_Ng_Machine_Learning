@@ -40,7 +40,8 @@ x^(i) : i번째 x 데이터  ex) x^(2) : 1416
 y^(i) : i번째 y 데이터  ex) y^(1) : 460
 
 Supervised Learning(지도 학습)의 목표는 y = h(x)에서 좋은 y값을 예측하는 것이 목표   
-여기서 h를 hypothesis(가설)이라고 함
+여기서 h를 hypothesis(가설)이라고 함   
+
 <img src="./Week1/hypothesis.PNG" width="50%">
 
 <img src="./Week1/process.png" width="50%">
