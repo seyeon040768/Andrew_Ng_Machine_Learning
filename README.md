@@ -1,6 +1,6 @@
 # Coursera_Lectures
  - [Introduction](#introduction)
-   - [1. What is Machine Learning?](#1-what-is-machine-learning?) 
+   - [1. What is Machine Learning?](#1-what-is-machine-learning) 
    - [2. Supervised Learning](#2-supervised-learning)
    - [3. Unsupervised Learning](#3-unsupervised-learning)
 ## Introduction
