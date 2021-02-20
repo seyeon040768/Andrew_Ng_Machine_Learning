@@ -22,7 +22,7 @@ ex) 평수로 주택 가격 예측
 **Classification(분류)**   
 어떤 데이터를 여러 값중 하나로 분류하는 것   
 ex) 종양 크기로 악성 종양인지 판단   
-<img src="./Week1/classification.png" width="30%">
+<img src="./Week1/classification.png" width="50%">
 ***
 ### 3. Unsupervised Learning
 정답을 알려주지 않고 데이터를 군집화 하는것   
