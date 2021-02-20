@@ -1,5 +1,5 @@
 # Coursera_Lectures
-![](##Introduction)
+ - [Introduction](#introduction)
 ## Introduction
 ### 1. What is Machine Learning?
 컴퓨터가 명시적으로 프로그램되지 않고도 학습할 수 있도록 하는 연구 분야 by Arthur Samuel
