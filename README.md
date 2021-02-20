@@ -33,7 +33,7 @@ ex) 뉴스 기사 분류
 ***
 ## Model and Cost Function
 ### 1. Model Representation
-<img src="./Week1/model representation.PNG" width="50%">
+<img src="./Week1/model representation.PNG" width="50%">   
 m : 데이터의 총 개수   
-x^(i) : i번째 x 데이터 ex) x^(2) : 1416   
-y^(i) : i번째 y 데이터 ex) y^(1) : 460   
+x^(i) : i번째 x 데이터  ex) x^(2) : 1416   
+y^(i) : i번째 y 데이터  ex) y^(1) : 460   
