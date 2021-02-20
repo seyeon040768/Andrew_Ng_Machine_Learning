@@ -1,8 +1,8 @@
 # Coursera_Lectures
- - [Introduction](#introduction)
-   -[1. What is Machine Learning?](1-what-is-machine-learning?)
-   -[2. Supervised Learning](2-supervised-learning)
-   -[3. Unsupervised Learning](3-unsupervised-learning)
+ - [Introduction](#introduction)   
+   -[1. What is Machine Learning?](1-what-is-machine-learning?)   
+   -[2. Supervised Learning](2-supervised-learning)   
+   -[3. Unsupervised Learning](3-unsupervised-learning)   
 ## Introduction
 ### 1. What is Machine Learning?
 컴퓨터가 명시적으로 프로그램되지 않고도 학습할 수 있도록 하는 연구 분야 by Arthur Samuel
