@@ -33,4 +33,4 @@ ex) 뉴스 기사 분류
 ***
 ## Model and Cost Function
 ### 1. Model Representation
-
+<img src="./Week1/model representation.png" width="30%">
