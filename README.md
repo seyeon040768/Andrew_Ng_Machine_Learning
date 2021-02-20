@@ -1,4 +1,4 @@
-# Coursera_Lectures
+# Coursera Lectures
 - Week1
   - [Introduction](#introduction)
     - [1. What is Machine Learning?](#1-what-is-machine-learning) 
@@ -30,7 +30,7 @@ ex) 종양 크기로 악성 종양인지 판단
 정답을 알려주지 않고 데이터를 군집화 하는것   
 데이터가 무엇인지는 정의할 수 없지만 비슷한 특징을 찾아 분류   
 ex) 뉴스 기사 분류
-
+***
 ## Model and Cost Function
 ### 1. Model Representation
 
