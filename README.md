@@ -51,7 +51,7 @@ Supervised Learning(지도 학습)의 목표는 h(x)를 y값에 가깝게 만드
 
 ***
 ### 2. Cost Function
-설정한 가설(<img src="https://latex.codecogs.com/gif.latex?h(x)" />)의 정확도를 확인하기 위해 Cost Function(비용 함수)를 사용   
+설정한 가설( <img src="https://latex.codecogs.com/gif.latex?h(x)" /> )의 정확도를 확인하기 위해 Cost Function(비용 함수)를 사용   
 비용 함수의 값이 작을수록 정확   
 
 비용 함수는 아래와 같이 **Squared error function**or **Mean squared error**(평균 제곱 오차) 방식을 주로 씀
