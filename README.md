@@ -7,6 +7,7 @@
   - [Model and Cost Function](#model-and-cost-function)
     - [1. Model Representation](#1-model-representation)
     - [2. Cost Function](#2-cost-function)
+    - [3. Cost Function Intuition 1](#3-cost-function-intuition-1
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
@@ -52,9 +53,20 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 ***
 ### 2. Cost Function
 설정한 가설( <img src="https://latex.codecogs.com/gif.latex?h(x)" /> )의 정확도를 확인하기 위해 Cost Function(비용 함수)를 사용   
-비용 함수의 값이 작을수록 정확   
+비용 함수의 값이 작을수록(0에 가까울수록) 정확   
 
 비용 함수는 아래와 같이 **Squared error function** or **Mean squared error**(평균 제곱 오차) 방식을 주로 씀
 <img src="./Week1/cost_function.png" width="50%">
 
 ***
+### 3. Cost Function Intuition 1
+<img src="https://latex.codecogs.com/gif.latex?h(x) = \Theta_{0} + \Theta_{1}x " />에서 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0} = 0" />이라고 가정
+
+데이터 셋:   
+<img src="https://latex.codecogs.com/gif.latex?(1, 1)" />   
+<img src="https://latex.codecogs.com/gif.latex?(2, 2)" />   
+<img src="https://latex.codecogs.com/gif.latex?(3, 3)" />   
+
+<img src="./Week1/cost_function_1.png" width="50%">
+
+<img src="https://latex.codecogs.com/gif.latex?\Theta_{1} = 1" />이면 위 그래프와 같이 데이터와 완벽이 일치한다. 이때 비용 함수를 구해 보면 <img src="https://latex.codecogs.com/gif.latex?\frac{1}{2 \times 3}\sum_{i=1}^{3}(h_{\Theta}(x_{i}) - y_{i})^{2} = \frac{1}{6}(0^{2} + 0^{2} + 0^{2}) = 0" />과 같이 <img src="https://latex.codecogs.com/gif.latex?0" />이 나온다.
