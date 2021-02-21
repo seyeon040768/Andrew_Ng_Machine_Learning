@@ -38,8 +38,8 @@ ex) 뉴스 기사 분류
 <img src="./Week1/model representation.PNG" width="50%">
 
 <img src="https://latex.codecogs.com/gif.latex?m" /> : 데이터의 총 개수   
-x^(i) : i번째 x 데이터  ex) x^(2) : 1416   
-y^(i) : i번째 y 데이터  ex) y^(1) : 460
+<img src="https://latex.codecogs.com/gif.latex?x^{(i)}" /> : <img src="https://latex.codecogs.com/gif.latex?i" />번째 <img src="https://latex.codecogs.com/gif.latex?x" /> 데이터  ex) <img src="https://latex.codecogs.com/gif.latex?x^{(2)}" /> : 1416   
+<img src="https://latex.codecogs.com/gif.latex?y^{(i)}" /> : <img src="https://latex.codecogs.com/gif.latex?i" />번째 <img src="https://latex.codecogs.com/gif.latex?y" /> 데이터  ex) <img src="https://latex.codecogs.com/gif.latex?y^{(1)}" /> : 460
 
 Supervised Learning(지도 학습)의 목표는 h(x)를 y값에 가깝게 만드는 것이 목표   
 여기서 h를 hypothesis(가설)이라고 함   
