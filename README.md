@@ -60,13 +60,13 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 
 ***
 ### 3. Cost Function Intuition 1
-<img src="https://latex.codecogs.com/gif.latex?h(x) = \Theta_{0} + \Theta_{1}x " />에서 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0} = 0" />이라고 가정
+<img src="https://latex.codecogs.com/gif.latex?h(x)=\Theta_{0}+\Theta_{1}x" />에서 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}=0" />이라고 가정
 
 데이터 셋:   
-<img src="https://latex.codecogs.com/gif.latex?(1, 1)" />   
-<img src="https://latex.codecogs.com/gif.latex?(2, 2)" />   
-<img src="https://latex.codecogs.com/gif.latex?(3, 3)" />   
+<img src="https://latex.codecogs.com/gif.latex?(1,1)" />   
+<img src="https://latex.codecogs.com/gif.latex?(2,2)" />   
+<img src="https://latex.codecogs.com/gif.latex?(3,3)" />   
 
 <img src="./Week1/cost_function_1.png" width="50%">
 
-<img src="https://latex.codecogs.com/gif.latex?\Theta_{1} = 1" />이면 위 그래프와 같이 데이터와 완벽이 일치한다. 이때 비용 함수를 구해 보면 <img src="https://latex.codecogs.com/gif.latex?\frac{1}{2 \times 3}\sum_{i=1}^{3}(h_{\Theta}(x_{i}) - y_{i})^{2} = \frac{1}{6}(0^{2} + 0^{2} + 0^{2}) = 0" />과 같이 <img src="https://latex.codecogs.com/gif.latex?0" />이 나온다.
+<img src="https://latex.codecogs.com/gif.latex?\Theta_{1}=1" />이면 위 그래프와 같이 데이터와 완벽이 일치한다. 이때 비용 함수를 구해 보면 <img src="https://latex.codecogs.com/gif.latex?\frac{1}{2\times3}\sum_{i=1}^{3}(h_{\Theta}(x_{i})-y_{i})^{2}=\frac{1}{6}(0^{2}+0^{2}+0^{2})=0" />과 같이 <img src="https://latex.codecogs.com/gif.latex?0" />이 나온다.
