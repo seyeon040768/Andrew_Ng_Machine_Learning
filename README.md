@@ -7,7 +7,7 @@
   - [Model and Cost Function](#model-and-cost-function)
     - [1. Model Representation](#1-model-representation)
     - [2. Cost Function](#2-cost-function)
-    - [3. Cost Function Intuition 1](#3-cost-function-intuition-1
+    - [3. Cost Function Intuition 1](#3-cost-function-intuition-1)
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
@@ -76,5 +76,12 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 <img src="./Week1/cost_function_2.png" width="50%">
 
 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}=0.5" />이면 위 그래프와 같은 모양이 나온다. 여기서 비용 함수를 구해 보면   
-<img src="https://latex.codecogs.com/gif.latex?\frac{1}{2\times3}\sum_{i=1}^{3}(h_{\Theta}(x_{i})-y_{i})^{2}=\frac{1}{6}(0.5^{2}+1^{2}+1.5^{2})=\frac{1}{6}\times\frac{7}{2}\simeq0.58" />과 같이 약 <img src="https://latex.codecogs.com/gif.latex?0.58" />이 나온다. 아까 데이터와 그래프가 완벽히 일치했을 때의 비용 함수 값보다 더 크다.
+<img src="https://latex.codecogs.com/gif.latex?\frac{1}{2\times3}\sum_{i=1}^{3}(h_{\Theta}(x_{i})-y_{i})^{2}=\frac{1}{6}(0.5^{2}+1^{2}+1.5^{2})=\frac{1}{6}\times\frac{7}{2}\simeq0.58" />   
+과 같이 약 <img src="https://latex.codecogs.com/gif.latex?0.58" />이 나온다. 아까 데이터와 그래프가 완벽히 일치했을 때의 비용 함수 값보다 더 크다.
+
+<img src="https://latex.codecogs.com/gif.latex?x" />값에 따른 비용 함수의 값을 좌표평면 위에 나타내면 아래와 같은 개형의 그래프가 그려진다.   
+
+<img src="./Week1/cost_function_3.png" width="50%">
+
+***
 
