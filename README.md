@@ -97,7 +97,20 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 ***
 ## Parameter Learning
 ### 1. Gradient Descent
+비용 함수의 값을 최소화하기 위해 사용하는 방법중에는 Gradient Descent(경사 하강법)이 있다.  
+경사 하강법은 비용함수의 그래프의 최소값을 찾기 위해 말 그대로 경사를 따라 내려가는 방식이다.   
+<img src="./Week1/gradient_descent_path_1.png" width="50%"><img src="./Week1/gradient_descent_path_2.png" width="50%">
 
+위 그림과 같이 시작점에 따라 도착하는 지점이 다를 수 있다.
+
+<img src="./Week1/gradient_descent.png" width="50%">
+
+경사 하강법의 식은 위와 같으며 <img src="https://latex.codecogs.com/gif.latex?\Theta" />값이 <img src="https://latex.codecogs.com/gif.latex?0" />과 <img src="https://latex.codecogs.com/gif.latex?1" />일 때를 나누어 계산한다.   
+여기서 <img src="https://latex.codecogs.com/gif.latex?\alpha" />를 Learning Rate(학습률)이라 하고 학습률의 크기에 따라 한번에 내려가는 거리가 결정된다.
+
+<img src="./Week1/simultaneous_update.png" width="50%">
+
+경사 하강법을 계산할 때는 위와 같이 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />에 대한 값을 미리 계산한 다음에 대입하여야 한다. 오른쪽과 같이 계산 - 대입 - 계산 - 대입 순으로 계산하면 이상한 값이 나올 수도 있다.
 ***
 ### 2. Gradient Descent Intuition 1
 
