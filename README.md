@@ -37,7 +37,7 @@ ex) 뉴스 기사 분류
 ### 1. Model Representation
 <img src="./Week1/model representation.PNG" width="50%">
 
-- <img src="https://latex.codecogs.com/gif.latex?m" />
+<img src="https://latex.codecogs.com/gif.latex?m" />
 
 m : 데이터의 총 개수   
 x^(i) : i번째 x 데이터  ex) x^(2) : 1416   
