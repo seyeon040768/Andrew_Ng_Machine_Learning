@@ -6,6 +6,7 @@
     - [3. Unsupervised Learning](#3-unsupervised-learning)
   - [Model and Cost Function](#model-and-cost-function)
     - [1. Model Representation](#1-model-representation)
+    - [2. Cost Function](#2-cost-function)
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
@@ -38,8 +39,8 @@ ex) 뉴스 기사 분류
 <img src="./Week1/model representation.PNG" width="50%">
 
 <img src="https://latex.codecogs.com/gif.latex?m" /> : 데이터의 총 개수   
-<img src="https://latex.codecogs.com/gif.latex?x^{(i)}" /> : <img src="https://latex.codecogs.com/gif.latex?i" />번째 <img src="https://latex.codecogs.com/gif.latex?x" /> 데이터  ex) <img src="https://latex.codecogs.com/gif.latex?x^{(2)}" /> : 1416   
-<img src="https://latex.codecogs.com/gif.latex?y^{(i)}" /> : <img src="https://latex.codecogs.com/gif.latex?i" />번째 <img src="https://latex.codecogs.com/gif.latex?y" /> 데이터  ex) <img src="https://latex.codecogs.com/gif.latex?y^{(1)}" /> : 460
+<img src="https://latex.codecogs.com/gif.latex?x^{(i)}" /> : <img src="https://latex.codecogs.com/gif.latex?i" />번째 <img src="https://latex.codecogs.com/gif.latex?x" /> 데이터  ex) <img src="https://latex.codecogs.com/gif.latex?x^{(2)}" /> : <img src="https://latex.codecogs.com/gif.latex?1416" />   
+<img src="https://latex.codecogs.com/gif.latex?y^{(i)}" /> : <img src="https://latex.codecogs.com/gif.latex?i" />번째 <img src="https://latex.codecogs.com/gif.latex?y" /> 데이터  ex) <img src="https://latex.codecogs.com/gif.latex?y^{(1)}" /> : <img src="https://latex.codecogs.com/gif.latex?460" />
 
 Supervised Learning(지도 학습)의 목표는 h(x)를 y값에 가깝게 만드는 것이 목표   
 여기서 h를 hypothesis(가설)이라고 함   
@@ -49,4 +50,11 @@ Supervised Learning(지도 학습)의 목표는 h(x)를 y값에 가깝게 만드
 <img src="./Week1/process.png" width="50%">
 
 ***
+### 2. Cost Function
+설정한 가설(<img src="https://latex.codecogs.com/gif.latex?h(x)" />)의 정확도를 확인하기 위해 Cost Function(비용 함수)를 사용   
+비용 함수의 값이 작을수록 정확   
 
+비용 함수는 아래와 같이 **Squared error function**or **Mean squared error**(평균 제곱 오차) 방식을 주로 씀
+<img src="./Week1/cost_function.png" width="50%">
+
+***
