@@ -87,4 +87,7 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 ***
 ### 4. Cost Function Intuition 2
 
-<img src="./Week1/cost_function_4.png" width="50%"><img src="./Week1/cost_function_5.png" width="50%"><img src="./Week1/cost_function_6.png" width="50%">
+<img src="./Week1/cost_function_4.png" width="50%"><img src="./Week1/cost_function_5.png" width="50%"><img src="./Week1/cost_function_7.png" width="50%">
+
+그래프와 데이터의 분포가 비슷할수록 등고선 그래프의 나타난 비용 함수의 값이 최하점에 가까워지는 것을 볼 수 있다.
+***
