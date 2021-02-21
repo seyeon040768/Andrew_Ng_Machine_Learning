@@ -8,6 +8,7 @@
     - [1. Model Representation](#1-model-representation)
     - [2. Cost Function](#2-cost-function)
     - [3. Cost Function Intuition 1](#3-cost-function-intuition-1)
+    - [4. Cost Function Intuition 2](#4-cost-function-intuition-2)
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
@@ -84,4 +85,6 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 <img src="./Week1/cost_function_3.png" width="50%">
 
 ***
+### 4. Cost Function Intuition 2
 
+<img src="./Week1/cost_function_4.png" width="50%"><img src="./Week1/cost_function_5.png" width="50%"><img src="./Week1/cost_function_6.png" width="50%">
