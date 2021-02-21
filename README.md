@@ -105,7 +105,7 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 
 <img src="./Week1/gradient_descent.png" width="50%">
 
-경사 하강법의 식은 위와 같으며 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" /> 나누어 계산한다.   
+경사 하강법의 식은 위와 같으며 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />에 대해 따로 계산한다.   
 여기서 <img psrc="https://latex.codecogs.com/gif.latex?\alpha" />를 Learning Rate(학습률)이라 하고 학습률의 크기에 따라 한번에 내려가는 거리가 결정된다.
 
 <img src="./Week1/simultaneous_update.png" width="50%">
