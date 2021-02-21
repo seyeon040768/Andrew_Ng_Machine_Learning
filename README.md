@@ -1,12 +1,12 @@
 # Coursera Lectures
-- Week1
+- [Week1](#week1)
   - [Introduction](#introduction)
     - [1. What is Machine Learning?](#1-what-is-machine-learning) 
     - [2. Supervised Learning](#2-supervised-learning)
     - [3. Unsupervised Learning](#3-unsupervised-learning)
   - [Model and Cost Function](#model-and-cost-function)
     - [1. Model Representation](#1-model-representation)
-
+# Week1
 ## Introduction
 ### 1. What is Machine Learning?
 컴퓨터가 명시적으로 프로그램되지 않고도 학습할 수 있도록 하는 연구 분야 by Arthur Samuel
@@ -36,6 +36,8 @@ ex) 뉴스 기사 분류
 ## Model and Cost Function
 ### 1. Model Representation
 <img src="./Week1/model representation.PNG" width="50%">
+
+- <img src="https://latex.codecogs.com/gif.latex?m" />
 
 m : 데이터의 총 개수   
 x^(i) : i번째 x 데이터  ex) x^(2) : 1416   
