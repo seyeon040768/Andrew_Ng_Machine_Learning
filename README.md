@@ -9,6 +9,10 @@
     - [2. Cost Function](#2-cost-function)
     - [3. Cost Function Intuition 1](#3-cost-function-intuition-1)
     - [4. Cost Function Intuition 2](#4-cost-function-intuition-2)
+  - [Parameter Learning](#parameter-learning)
+    - [1. Gradient Descent](#1-gradient-descent)
+    - [2. Gradient Descent Intuition 1](#2-gradient-descent-intuition-1)
+    - [3. Gradient Descent Intuition 2](#3-gradient-descent-intuition-2)
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
@@ -91,3 +95,11 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 
 그래프와 데이터의 분포가 비슷할수록 등고선 그래프의 나타난 비용 함수의 값이 최하점에 가까워지는 것을 볼 수 있다.
 ***
+## Parameter Learning
+### 1. Gradient Descent
+
+***
+### 2. Gradient Descent Intuition 1
+
+***
+### 3. Gradient Descent Intuition 2
