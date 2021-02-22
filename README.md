@@ -105,7 +105,7 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 
 <img src="./Week1/gradient_descent.png" width="50%">
 
-경사 하강법의 식은 위와 같으며 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />에 대해 따로 계산한다.   
+경사 하강법의 식은 위와 같으며 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />에 대해 따로 계산(편미분)하며 최소값에 수렴할 때 까지 반복한다.   
 여기서 <img psrc="https://latex.codecogs.com/gif.latex?\alpha" />를 Learning Rate(학습률)이라 하고 학습률의 크기에 따라 한번에 내려가는 거리가 결정된다.
 
 <img src="./Week1/simultaneous_update.png" width="50%">
@@ -113,6 +113,16 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 경사 하강법을 계산할 때는 위와 같이 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />에 대한 값을 미리 계산한 다음에 대입하여야 한다. 오른쪽과 같이 계산 - 대입 - 계산 - 대입 순으로 계산하면 이상한 값이 나올 수도 있다.
 ***
 ### 2. Gradient Descent Intuition 1
+<img src="./Week1/gradient_descent_start_right.png" width="100%"><img src="./Week1/gradient_descent_start_left.png" width="100%">
 
+시작점이 최소값의 오른쪽일 때는 기울기가 양수이기 때문에 왼쪽으로 이동하게 되고 반대로 왼쪽일 때는 기울기가 음수이기 때문에 오른쪽으로 이동하게 된다.
+
+<img src="./Week1/gradient_descent_LR_small.png" width="100%">
+
+만약 학습률이 너무 작다면 조금씩 이동하기 때문에 최소값을 찾는데 너무 오래걸리게 된다.
+
+<img src="./Week1/gradient_descent_LR_large.png" width="100%">
+
+반대로 학습률이 너무 크다면 최소값으로 가지 못하고 오히려 멀어지게 된다.
 ***
 ### 3. Gradient Descent Intuition 2
