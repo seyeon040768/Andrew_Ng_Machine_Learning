@@ -127,3 +127,10 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 최소값에 가까워질수록 기울기가 0에 가까워지기 때문에 한번에 이동하는 거리가 짧아진다. 따라서 하강하는 도중 학습률을 수정(조정)할 필요가 없다.
 ***
 ### 3. Gradient Descent Intuition 2
+앞에서 봤던 비용 함수   
+<img src="https://latex.codecogs.com/gif.latex?J(\Theta_{0},\Theta_{1})=\sum_{i=1}^{m}(h_{\Theta}(x_{i})-y_{i})^{2}" />   
+와 경사하강법   
+<img src="./Week1/gradient_descent.png" width="50%">   
+를 결합하면
+
+<img src="https://latex.codecogs.com/gif.latex?\Theta_{0}:=\Theta_{0}-\alpha\frac{d}{d\Theta_{0}}(\frac{1}{2m}\sum_{i=1}^{m}(h_{\Theta}(x_{i})-y_{i})^{2})\\=\Theta_{0}-\alpha\frac{d}{d\Theta_{0}}(\frac{1}{2m}\sum_{i=1}^{m}(\Theta_{0}+\Theta_{1}x_{i}-y_{i})^{2})\\=\Theta_{0}-\alpha\frac{d}{d\Theta_{0}}(\frac{1}{2m}\sum_{i=1}^{m}(\Theta_{0}^{2}+2(\Theta_{1}x_{i}-y_{i})\Theta_{0}+(\Theta_{1}x_{i})^2-2\Theta_{1}x_{i}y_{i}+y_{i}^{2}))\\=\Theta_{0}-\alpha\frac{1}{2m}\sum_{i=1}^{m}(2\Theta_{0}+2(\Theta_{1}x_{i}-y_{i}))\\=\Theta_{0}-\alpha\frac{1}{m}\sum_{i=1}^{m}(\Theta_{0}+\Theta_{1}x_{i}-y_{i})\\=\Theta_{0}-\alpha\frac{1}{m}\sum_{i=1}^{m}(h_{\Theta}(x_{i})-y_{i}))" />  
