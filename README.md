@@ -1,4 +1,4 @@
-# Coursera Lectures
+# Coursera Machine Learning by Andrew Ng
 - [Week1](#week1)
   - [Introduction](#introduction)
     - [1. What is Machine Learning?](#1-what-is-machine-learning) 
