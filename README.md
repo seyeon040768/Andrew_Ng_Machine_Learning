@@ -117,12 +117,13 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 
 시작점이 최소값의 오른쪽일 때는 기울기가 양수이기 때문에 왼쪽으로 이동하게 되고 반대로 왼쪽일 때는 기울기가 음수이기 때문에 오른쪽으로 이동하게 된다.
 
-<img src="./Week1/gradient_descent_LR_small.png" width="30%">
+<img src="./Week1/gradient_descent_LR_small.png" width="30%"><img src="./Week1/gradient_descent_LR_large.png" width="30%">
 
-만약 학습률이 너무 작다면 조금씩 이동하기 때문에 최소값을 찾는데 너무 오래걸리게 된다.
-
-<img src="./Week1/gradient_descent_LR_large.png" width="30%">
-
+만약 학습률이 너무 작다면 조금씩 이동하기 때문에 최소값을 찾는데 너무 오래걸리게 된다.   
 반대로 학습률이 너무 크다면 최소값으로 가지 못하고 오히려 멀어지게 된다.
+
+<img src="./Week1/gradient_descent_LR_fixed.png" width="30%">
+
+최소값에 가까워질수록 기울기가 0에 가까워지기 때문에 한번에 이동하는 거리가 짧아진다. 따라서 하강하는 도중 학습률을 수정(조정)할 필요가 없다.
 ***
 ### 3. Gradient Descent Intuition 2
