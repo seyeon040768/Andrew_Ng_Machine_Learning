@@ -157,15 +157,15 @@ Matrix(행렬): 수를 직사각형 모양으로 배열한 것
 <img src="./Week1/matrix_4_2.png" width="20%">
 
 <img src="https://latex.codecogs.com/gif.latex?A_{ij}" />: <img src="https://latex.codecogs.com/gif.latex?i" />번째 열의 <img src="https://latex.codecogs.com/gif.latex?j" />번째 행에 위치한 원소   
-ex)<img src="https://latex.codecogs.com/gif.latex?A_{32}" />: <img src="https://latex.codecogs.com/gif.latex?1437" />   
+ex) <img src="https://latex.codecogs.com/gif.latex?A_{32}" />: <img src="https://latex.codecogs.com/gif.latex?1437" />   
 <img src="https://latex.codecogs.com/gif.latex?A_{24}" />: <img src="https://latex.codecogs.com/gif.latex?undefined" />   
 
-Vector(백터): <img src="https://latex.codecogs.com/gif.latex?n\Times{1}" />모양의 행렬
+Vector(백터): <img src="https://latex.codecogs.com/gif.latex?n\times1" />모양의 행렬
 
 <img src="./Week1/vector_4.png" width="20%">
 
 <img src="https://latex.codecogs.com/gif.latex?y_{i}" />: <img src="https://latex.codecogs.com/gif.latex?i" />번째 열에 위치한 원소   
-ex)<img src="https://latex.codecogs.com/gif.latex?y_{2}" />: <img src="https://latex.codecogs.com/gif.latex?232" />
+ex) <img src="https://latex.codecogs.com/gif.latex?y_{2}" />: <img src="https://latex.codecogs.com/gif.latex?232" />
 ***
 ### 2. Addition and Scalar Multiplication
 
