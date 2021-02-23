@@ -1,4 +1,5 @@
-# [Coursera Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning){target="_blank"}
+<header>[Coursera Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning)</header>
+# [Coursera Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning)
 - [Week1](#week1)
   - [Introduction](#introduction)
     - [1. What is Machine Learning?](#1-what-is-machine-learning) 
@@ -142,5 +143,21 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 <img src="./Week1/gradient_descent_cost_function.png" width="50%">
 
 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />에 대해 계산해도 위와 같은 식이 나온다.
+
+***
+## Linear Algebra Review
+### Matrices and Vectors
+
+***
+### Addition and Scalar Multiplication
+
+***
+### Matrix Vector Multiplication
+
+***
+### Matrix Multiplication Properties
+
+***
+### Inverse and Transpose
 
 ***
