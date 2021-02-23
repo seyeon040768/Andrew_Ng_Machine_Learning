@@ -1,5 +1,5 @@
 <header1><a href="https://www.coursera.org/learn/machine-learning">Coursera Machine Learning by Andrew Ng</a></header>
-# [Coursera Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning)
+# <a href="https://www.coursera.org/learn/machine-learning" target="_blank">Coursera Machine Learning by Andrew Ng</a>
 - [Week1](#week1)
   - [Introduction](#introduction)
     - [1. What is Machine Learning?](#1-what-is-machine-learning) 
