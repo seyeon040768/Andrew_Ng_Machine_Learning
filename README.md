@@ -160,7 +160,7 @@ Matrix(행렬): 수를 직사각형 모양으로 배열한 것
 ex)<img src="https://latex.codecogs.com/gif.latex?A_{32}" />: <img src="https://latex.codecogs.com/gif.latex?1437" />   
 <img src="https://latex.codecogs.com/gif.latex?A_{24}" />: <img src="https://latex.codecogs.com/gif.latex?undefined" />   
 
-Vector(백터): <img src="https://latex.codecogs.com/gif.latex?n\Times1" />모양의 행렬
+Vector(백터): <img src="https://latex.codecogs.com/gif.latex?n\Times{1}" />모양의 행렬
 
 <img src="./Week1/vector_4.png" width="20%">
 
