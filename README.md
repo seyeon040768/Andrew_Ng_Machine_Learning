@@ -1,4 +1,4 @@
-<header1>[Coursera Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning)</header>
+<header1><a herf="https://www.coursera.org/learn/machine-learning">Coursera Machine Learning by Andrew Ng</a></header>
 # [Coursera Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning)
 - [Week1](#week1)
   - [Introduction](#introduction)
