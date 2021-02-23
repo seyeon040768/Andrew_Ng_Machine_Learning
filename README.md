@@ -1,4 +1,4 @@
-# <a herf="https://www.coursera.org/learn/machine-learning" target="_blank">Coursera Machine Learning by Andrew Ng</a>
+# [Coursera Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning){target="_blank"}
 - [Week1](#week1)
   - [Introduction](#introduction)
     - [1. What is Machine Learning?](#1-what-is-machine-learning) 
