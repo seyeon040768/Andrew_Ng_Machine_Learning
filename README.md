@@ -142,3 +142,5 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 <img src="./Week1/gradient_descent_cost_function.png" width="50%">
 
 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />에 대해 계산해도 위와 같은 식이 나온다.
+
+***
