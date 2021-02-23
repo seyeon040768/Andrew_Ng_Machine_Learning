@@ -133,7 +133,8 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 <img src="./Week1/gradient_descent.png" width="50%">   
 을 결합하면
 
-<img src="https://latex.codecogs.com/gif.latex?\Theta_{0}:=\Theta_{0}-\alpha\frac{d}{d\Theta_{0}}(\frac{1}{2m}\sum_{i=1}^{m}(h_{\Theta}(x_{i})-y_{i})^{2})\\=\Theta_{0}-\alpha\frac{d}{d\Theta_{0}}(\frac{1}{2m}\sum_{i=1}^{m}(\Theta_{0}+\Theta_{1}x_{i}-y_{i})^{2})\\=\Theta_{0}-\alpha\frac{d}{d\Theta_{0}}(\frac{1}{2m}\sum_{i=1}^{m}(\Theta_{0}^{2}+2(\Theta_{1}x_{i}-y_{i})\Theta_{0}+(\Theta_{1}x_{i})^2-2\Theta_{1}x_{i}y_{i}+y_{i}^{2}))\\=\Theta_{0}-\alpha\frac{1}{2m}\sum_{i=1}^{m}(2\Theta_{0}+2(\Theta_{1}x_{i}-y_{i}))\\=\Theta_{0}-\alpha\frac{1}{m}\sum_{i=1}^{m}(\Theta_{0}+\Theta_{1}x_{i}-y_{i})\\=\Theta_{0}-\alpha\frac{1}{m}\sum_{i=1}^{m}(h_{\Theta}(x_{i})-y_{i})" />   
+<img src="https://latex.codecogs.com/gif.latex?\Theta_{0}:=\Theta_{0}-\alpha\frac{d}{d\Theta_{0}}(\frac{1}{2m}\sum_{i=1}^{m}(h_{\Theta}(x_{i})-y_{i})^{2})\\=\Theta_{0}-\alpha\frac{d}{d\Theta_{0}}(\frac{1}{2m}\sum_{i=1}^{m}(\Theta_{0}+\Theta_{1}x_{i}-y_{i})^{2})\\=\Theta_{0}-\alpha\frac{d}{d\Theta_{0}}(\frac{1}{2m}\sum_{i=1}^{m}(\Theta_{0}^{2}+2(\Theta_{1}x_{i}-y_{i})\Theta_{0}+(\Theta_{1}x_{i})^2-2\Theta_{1}x_{i}y_{i}+y_{i}^{2}))\\=\Theta_{0}-\alpha\frac{1}{2m}\sum_{i=1}^{m}(2\Theta_{0}+2(\Theta_{1}x_{i}-y_{i}))\\=\Theta_{0}-\alpha\frac{1}{m}\sum_{i=1}^{m}(\Theta_{0}+\Theta_{1}x_{i}-y_{i})\\=\Theta_{0}-\alpha\frac{1}{m}\sum_{i=1}^{m}(h_{\Theta}(x_{i})-y_{i})" />
+
 (<img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />에 대한 계산(미분))
 
 이므로 아래와 같은 식이 나온다.
