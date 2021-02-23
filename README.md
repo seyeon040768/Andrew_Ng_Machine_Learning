@@ -1,4 +1,4 @@
-<a href="https://www.coursera.org/learn/machine-learning" target="_blank">Coursera Machine Learning by Andrew Ng</a>
+# [Coursera Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning)
 - [Week1](#week1)
   - [Introduction](#introduction)
     - [1. What is Machine Learning?](#1-what-is-machine-learning) 
@@ -13,6 +13,12 @@
     - [1. Gradient Descent](#1-gradient-descent)
     - [2. Gradient Descent Intuition 1](#2-gradient-descent-intuition-1)
     - [3. Gradient Descent Intuition 2](#3-gradient-descent-intuition-2)
+  - [Linear Algebra Review](#linear-algebra-review)
+    - [1. Matrices and Vectors](#1-matrices-and-vectors)
+    - [2. Addition and Scalar Multiplication](#2-addition-and-scalar-multiplication)
+    - [3. Matrix Vector Multiplication](#3-matrix-vector-multiplication)
+    - [4. Matrix Multiplication Properties](#4-matrix-multiplication-properties)
+    - [5. Inverse and Transpose](#5-inverse-and-transpose)
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
@@ -145,18 +151,18 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 
 ***
 ## Linear Algebra Review
-### Matrices and Vectors
+### 1. Matrices and Vectors
 
 ***
-### Addition and Scalar Multiplication
+### 2. Addition and Scalar Multiplication
 
 ***
-### Matrix Vector Multiplication
+### 3. Matrix Vector Multiplication
 
 ***
-### Matrix Multiplication Properties
+### 4. Matrix Multiplication Properties
 
 ***
-### Inverse and Transpose
+### 5. Inverse and Transpose
 
 ***
