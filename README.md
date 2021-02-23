@@ -1,4 +1,4 @@
-# Coursera Machine Learning by Andrew Ng
+# [Coursera Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning)
 - [Week1](#week1)
   - [Introduction](#introduction)
     - [1. What is Machine Learning?](#1-what-is-machine-learning) 
