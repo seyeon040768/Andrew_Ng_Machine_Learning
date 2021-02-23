@@ -154,7 +154,7 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 ### 1. Matrices and Vectors
 Matrix(행렬): 수를 직사각형 모양으로 배열한 것
 
-<img src="./Week1/matrix_4_2.png" width="50%">
+<img src="./Week1/matrix_4_2.png" width="20%">
 
 <img src="https://latex.codecogs.com/gif.latex?A_{ij}" />: <img src="https://latex.codecogs.com/gif.latex?i" />번째 열의 <img src="https://latex.codecogs.com/gif.latex?j" />번째 행에 위치한 원소   
 ex)<img src="https://latex.codecogs.com/gif.latex?A_{32}" />: <img src="https://latex.codecogs.com/gif.latex?1437" />   
@@ -162,7 +162,7 @@ ex)<img src="https://latex.codecogs.com/gif.latex?A_{32}" />: <img src="https://
 
 Vector(백터): <img src="https://latex.codecogs.com/gif.latex?n\Times1" />모양의 행렬
 
-<img src="./Week1/vector_4.png" width="50%">
+<img src="./Week1/vector_4.png" width="20%">
 
 <img src="https://latex.codecogs.com/gif.latex?y_{i}" />: <img src="https://latex.codecogs.com/gif.latex?i" />번째 열에 위치한 원소   
 ex)<img src="https://latex.codecogs.com/gif.latex?y_{2}" />: <img src="https://latex.codecogs.com/gif.latex?232" />
