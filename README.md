@@ -183,6 +183,7 @@ ex)
 ex)
 
 <img src="https://latex.codecogs.com/gif.latex?3\times\begin{bmatrix}1&0\\2&5\\3&1\end{bmatrix}=\begin{bmatrix}3&0\\6&15\\9&3\end{bmatrix}" />
+
 ***
 ### 3. Matrix Vector Multiplication
 
