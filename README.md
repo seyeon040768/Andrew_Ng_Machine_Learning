@@ -168,7 +168,19 @@ Vector(백터): <img src="https://latex.codecogs.com/gif.latex?n\times1" />모�
 ex) <img src="https://latex.codecogs.com/gif.latex?y_{2}" />: <img src="https://latex.codecogs.com/gif.latex?232" />
 ***
 ### 2. Addition and Scalar Multiplication
+**행렬의 덧셈**   
+<img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}a&b\\c&d\\e&f\end{bmatrix}+\begin{bmatrix}g&h\\i&j\\k&l\end{bmatrix}=\begin{bmatrix}a+g&b+h\\c+i&d+j\\e+k&f+l\end{bmatrix}" />
 
+ex)
+
+<img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}1&0\\2&5\\3&1\end{bmatrix}+\begin{bmatrix}4&0.5\\2&5\\0&1\end{bmatrix}=\begin{bmatrix}5&0.5\\4&10\\3&2\end{bmatrix}" />
+
+**행렬의 곱셈**   
+<img src="https://latex.codecogs.com/gif.latex?x\times\begin{bmatrix}a&b\\c&d\\e&f\end{bmatrix}=\begin{bmatrix}ax&bx\\cx&dx\\ex&fx\end{bmatrix}" />
+
+ex)
+
+<img src="https://latex.codecogs.com/gif.latex?3\times\begin{bmatrix}1&0\\2&5\\3&1\end{bmatrix}=\begin{bmatrix}3&0\\6&15\\9&3\end{bmatrix}" />
 ***
 ### 3. Matrix Vector Multiplication
 
