@@ -168,7 +168,7 @@ Vector(백터): <img src="https://latex.codecogs.com/gif.latex?n\times1" />모�
 ex) <img src="https://latex.codecogs.com/gif.latex?y_{2}" />: <img src="https://latex.codecogs.com/gif.latex?232" />
 ***
 ### 2. Addition and Scalar Multiplication
-**행렬의 덧셈**
+**행렬의 덧셈(행렬 + 행렬)**
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}a&b\\c&d\\e&f\end{bmatrix}+\begin{bmatrix}g&h\\i&j\\k&l\end{bmatrix}=\begin{bmatrix}a+g&b+h\\c+i&d+j\\e+k&f+l\end{bmatrix}" />
 
@@ -176,7 +176,7 @@ ex)
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}1&0\\2&5\\3&1\end{bmatrix}+\begin{bmatrix}4&0.5\\2&5\\0&1\end{bmatrix}=\begin{bmatrix}5&0.5\\4&10\\3&2\end{bmatrix}" />
 
-**행렬의 곱셈**
+**행렬의 곱셈(상수 X 행렬)**
 
 <img src="https://latex.codecogs.com/gif.latex?x\times\begin{bmatrix}a&b\\c&d\\e&f\end{bmatrix}=\begin{bmatrix}ax&bx\\cx&dx\\ex&fx\end{bmatrix}" />
 
@@ -186,6 +186,24 @@ ex)
 
 ***
 ### 3. Matrix Vector Multiplication
+**행렬 X 백터**
+<img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}a&b&c\end{bmatrix}\times\begin{bmatrix}x\\y\\z\end{bmatrix}=\begin{bmatrix}ax+by+cy\end{bmatrix}" />
+
+ex)
+
+<img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}1&2&1&5\\0&3&0&4\\-1&-2&0&0\end{bmatrix}\times\begin{bmatrix}1\\3\\2\\1\end{bmatrix}=\begin{bmatrix}14\\13
+\\-7\end{bmatrix}" />
+
+**집 가격 예측 예제**
+<img src="./Week1/M_V_multi_ex_house.PNG" width="30%">
+
+위와 같은 데이터가 있고
+
+<img src="./Week1/M_V_multi_ex_house_h.PNG" width="30%">
+
+위와 같이 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />을 <img src="https://latex.codecogs.com/gif.latex?-40" />과 <img src="https://latex.codecogs.com/gif.latex?0.25" />로 설정했을때 아래와 같이 나타낼 수 있습니다.
+
+<img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}1&2104\\1&1416\\1&1534\\1&852\end{bmatrix}\times\begin{bmatrix}-40\\0.25\end{bmatrix}}" />
 
 ***
 ### 4. Matrix Multiplication Properties
