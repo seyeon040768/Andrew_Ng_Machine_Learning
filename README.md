@@ -203,7 +203,7 @@ ex)
 
 위와 같이 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />을 <img src="https://latex.codecogs.com/gif.latex?-40" />과 <img src="https://latex.codecogs.com/gif.latex?0.25" />로 설정했을때 아래와 같이 나타낼 수 있습니다.
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}1&2104\\1&1416\\1&1534\\1&852\end{bmatrix}\times\begin{bmatrix}-40\\0.25\end{bmatrix}}" />
+<img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}1&2104\\1&1416\\1&1534\\1&852\end{bmatrix}\times\begin{bmatrix}-40\\0.25\end{bmatrix}" />
 
 ***
 ### 4. Matrix Multiplication Properties
