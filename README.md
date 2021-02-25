@@ -192,8 +192,7 @@ ex)
 
 ex)
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}1&2&1&5\\0&3&0&4\\-1&-2&0&0\end{bmatrix}\times\begin{bmatrix}1\\3\\2\\1\end{bmatrix}=\begin{bmatrix}14\\13
-\\-7\end{bmatrix}" />
+<img src="./Week1/M_V_multi_ex.png" width="30%">
 
 **집 가격 예측 예제**
 
