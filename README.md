@@ -195,6 +195,7 @@ ex)
 \\-7\end{bmatrix}" />
 
 **집 가격 예측 예제**
+
 <img src="./Week1/M_V_multi_ex_house.PNG" width="30%">
 
 위와 같은 데이터가 있고
