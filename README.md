@@ -17,8 +17,9 @@
     - [1. Matrices and Vectors](#1-matrices-and-vectors)
     - [2. Addition and Scalar Multiplication](#2-addition-and-scalar-multiplication)
     - [3. Matrix Vector Multiplication](#3-matrix-vector-multiplication)
-    - [4. Matrix Multiplication Properties](#4-matrix-multiplication-properties)
-    - [5. Inverse and Transpose](#5-inverse-and-transpose)
+    - [4. Matrix Matrix Multiplication](#4-matrix-matrix-multiplication)
+    - [5. Matrix Multiplication Properties](#5-matrix-multiplication-properties)
+    - [6. Inverse and Transpose](#6-inverse-and-transpose)
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
@@ -67,6 +68,7 @@ Supervised Learning(지도 학습)의 목표는 <img src="https://latex.codecogs
 비용 함수의 값이 작을수록(0에 가까울수록) 정확   
 
 비용 함수는 아래와 같이 **Squared error function** or **Mean squared error**(평균 제곱 오차) 방식을 주로 씀
+
 <img src="./Week1/cost_function.png" width="50%">
 
 ***
@@ -202,14 +204,35 @@ ex)
 
 <img src="./Week1/M_V_multi_ex_house_h.PNG" width="30%">
 
-위와 같이 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />을 <img src="https://latex.codecogs.com/gif.latex?-40" />과 <img src="https://latex.codecogs.com/gif.latex?0.25" />로 설정했을때 아래와 같이 나타낼 수 있습니다.
+위와 같이 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />을 <img src="https://latex.codecogs.com/gif.latex?-40" />과 <img src="https://latex.codecogs.com/gif.latex?0.25" />로 설정했을때 아래와 같이 나타낼 수 있다.
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}1&2104\\1&1416\\1&1534\\1&852\end{bmatrix}\times\begin{bmatrix}-40\\0.25\end{bmatrix}" />
 
 ***
-### 4. Matrix Multiplication Properties
+### 4. Matrix Matrix Multiplication
+**행렬 X 행렬**
+
+<img src="./Week1/M_M_mult.png" width="30%">
+
+ex)
+
+<img src="./Week1/M_M_multi_ex.png" width="30%">
+
+<img src="https://latex.codecogs.com/gif.latex?m\timesn" /> 모양의 행렬과 곱하려면 <img src="https://latex.codecogs.com/gif.latex?n\timeso" /> 모양의 행렬이어야 한다. 이때 결과는 <img src="https://latex.codecogs.com/gif.latex?m\timeso" /> 모양의 행렬이 나온다.
+
+**집 가격 예측 예제**
+
+<img src="./Week1/M_M_multi_ex_house.png" width="30%">
+
+다음과 같은 데이터와 가설들이 있을때, 아래와 같이 계산할 수 있다.
+
+<img src="./Week1/M_M_multi_ex_house_result.png" width="30%">
 
 ***
-### 5. Inverse and Transpose
+### 5. Matrix Multiplication Properties
+
+
+***
+### 6. Inverse and Transpose
 
 ***
