@@ -218,7 +218,7 @@ ex)
 
 <img src="./Week1/M_M_multi_ex.png" width="30%">
 
-<img src="https://latex.codecogs.com/gif.latex?m\timesn" /> 모양의 행렬과 곱하려면 <img src="https://latex.codecogs.com/gif.latex?n\timeso" /> 모양의 행렬이어야 한다. 이때 결과는 <img src="https://latex.codecogs.com/gif.latex?m\timeso" /> 모양의 행렬이 나온다.
+<img src="https://latex.codecogs.com/gif.latex?m{\times}n" /> 모양의 행렬과 곱하려면 <img src="https://latex.codecogs.com/gif.latex?n{\times}o" /> 모양의 행렬이어야 한다. 이때 결과는 <img src="https://latex.codecogs.com/gif.latex?m{\times}o" /> 모양의 행렬이 나온다.
 
 **집 가격 예측 예제**
 
