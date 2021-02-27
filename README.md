@@ -231,6 +231,7 @@ ex)
 ***
 ### 5. Matrix Multiplication Properties
 **교환법칙(commutative property)**
+
 두 행렬 <img src="https://latex.codecogs.com/gif.latex?A" />와 <img src="https://latex.codecogs.com/gif.latex?B" />가 있을때, <img src="https://latex.codecogs.com/gif.latex?A{\cdot}B{\neq}B{\cdot}A" />이다.(교환법칙이 성립하지 않는다.)
 
 ex)
@@ -240,6 +241,7 @@ ex)
 <img src="./Week1/M_multi_com_2.png" width="30%">
 
 **결합법칙(associated law)**
+
 행렬 <img src="https://latex.codecogs.com/gif.latex?A" />, <img src="https://latex.codecogs.com/gif.latex?B" />와 <img src="https://latex.codecogs.com/gif.latex?C" />가 있을때, <img src="https://latex.codecogs.com/gif.latex?(A{\cdot}B){\cdot}C=A{\cdot}(B{\cdot}C)" />이다.(결합법칙이 성립한다.)
 
 ex)
@@ -254,6 +256,7 @@ ex)
 ***
 ### 6. Inverse and Transpose
 **역행렬(Inverse Matrix)**
+
 행렬 <img src="https://latex.codecogs.com/gif.latex?A" />와 곱했을때 항등행렬이 나오는 행렬을 <img src="https://latex.codecogs.com/gif.latex?A" />의 역행렬이라 하고 <img src="https://latex.codecogs.com/gif.latex?A^{-1}" />와 같이 표현한다.
 
 ex)
@@ -261,7 +264,7 @@ ex)
 <img src="./Week1/InT_inverse_ex.png" width="30%">
 
 **전치행렬(Transposed Matrix)**
-**역행렬(Inverse Matrix)**
+
 행렬 <img src="https://latex.codecogs.com/gif.latex?A" />의 행과 열을 맞바꾼 행렬을 <img src="https://latex.codecogs.com/gif.latex?A" />의 전치행렬이라 하고 <img src="https://latex.codecogs.com/gif.latex?A^{T}" />와 같이 표현한다.
 
 ex)
