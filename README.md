@@ -230,8 +230,27 @@ ex)
 
 ***
 ### 5. Matrix Multiplication Properties
+**교환법칙(commutative property)**
+두 행렬 <img src="https://latex.codecogs.com/gif.latex?A" />와 <img src="https://latex.codecogs.com/gif.latex?B" />가 있을때, <img src="https://latex.codecogs.com/gif.latex?A{\cdot}B{\neq}B{\cdot}A" />이다.(교환법칙이 성립하지 않는다.)
 
+ex)
 
+<img src="./Week1/M_multi_com_1.png" width="30%">
+
+<img src="./Week1/M_multi_com_2.png" width="30%">
+
+**결합법칙(associated law)**
+행렬 <img src="https://latex.codecogs.com/gif.latex?A" />, <img src="https://latex.codecogs.com/gif.latex?B" />와 <img src="https://latex.codecogs.com/gif.latex?C" />가 있을때, <img src="https://latex.codecogs.com/gif.latex?(A{\cdot}B){\cdot}C=A{\cdot}(B{\cdot}C)" />이다.(결합법칙이 성립한다.)
+
+ex)
+
+<img src="./Week1/M_multi_ass.png" width="30%">
+
+**항등행렬(identity matrix)**
+
+<img src="./Week1/M_multi_i.png" width="30%">
+
+위와 같이 행과 열의 수가 같고 왼쪽 위부터 오른쪽 아래를 잇는 대각선에 있는 원소가 모두 1이고 나머지 원소는 0인 행렬을 항등행렬이라고 한다.
 ***
 ### 6. Inverse and Transpose
 
