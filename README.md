@@ -250,8 +250,24 @@ ex)
 
 <img src="./Week1/M_multi_i.png" width="30%">
 
-위와 같이 행과 열의 수가 같고 왼쪽 위부터 오른쪽 아래를 잇는 대각선에 있는 원소가 모두 1이고 나머지 원소는 0인 행렬을 항등행렬이라고 한다.
+위와 같이 행과 열의 수가 같고 왼쪽 위부터 오른쪽 아래를 잇는 대각선(주대각선)에 있는 원소가 모두 1이고 나머지 원소는 0인 행렬을 항등행렬이라고 한다.
 ***
 ### 6. Inverse and Transpose
+**역행렬(Inverse Matrix)**
+행렬 <img src="https://latex.codecogs.com/gif.latex?A" />와 곱했을때 항등행렬이 나오는 행렬을 <img src="https://latex.codecogs.com/gif.latex?A" />의 역행렬이라 하고 <img src="https://latex.codecogs.com/gif.latex?A^{-1}" />와 같이 표현한다.
 
+ex)
+
+<img src="./Week1/InT_inverse_ex.png" width="30%">
+
+**전치행렬(Transposed Matrix)**
+**역행렬(Inverse Matrix)**
+행렬 <img src="https://latex.codecogs.com/gif.latex?A" />의 행과 열을 맞바꾼 행렬을 <img src="https://latex.codecogs.com/gif.latex?A" />의 전치행렬이라 하고 <img src="https://latex.codecogs.com/gif.latex?A^{T}" />와 같이 표현한다.
+
+ex)
+
+<img src="./Week1/InT_A.png" width="30%"><img src="./Week1/InT_AT.png" width="30%">
+
+행렬 <img src="https://latex.codecogs.com/gif.latex?A^{T}" />를 행렬 <img src="https://latex.codecogs.com/gif.latex?A" />의 전치행렬이라고 한다.   
+주대각선을 기준으로 서로 대칭을 이룬다.
 ***
