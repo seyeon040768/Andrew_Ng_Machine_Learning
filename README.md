@@ -269,7 +269,7 @@ ex)
 
 ex)
 
-<img src="./Week1/InT_A.png" width="30%"><img src="./Week1/InT_AT.png" width="30%">
+<img src="./Week1/InT_A.png" width="15%"><img src="./Week1/InT_AT.png" width="15%">
 
 행렬 <img src="https://latex.codecogs.com/gif.latex?A^{T}" />를 행렬 <img src="https://latex.codecogs.com/gif.latex?A" />의 전치행렬이라고 한다.   
 주대각선을 기준으로 서로 대칭을 이룬다.
