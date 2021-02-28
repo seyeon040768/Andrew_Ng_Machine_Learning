@@ -279,6 +279,20 @@ ex)
 ## Multivariate Linear Regression
 ### 1. Multiple Features
 
+<img src="./Week2/M_F_data.png" width="30%">
+
+<img src="https://latex.codecogs.com/gif.latex?n" />: 특징(feature)의 수  ex) <img src="https://latex.codecogs.com/gif.latex?n=4" /> Price는 <img src="https://latex.codecogs.com/gif.latex?y" />   
+<img src="https://latex.codecogs.com/gif.latex?x^{(i)}" />: <img src="https://latex.codecogs.com/gif.latex?i" />번째 데이터(학습 예제)  ex) <img src="https://latex.codecogs.com/gif.latex?x^{(2)}" />: <img src="https://latex.codecogs.com/gif.latex?[1416, 3, 2, 40]" />   
+<img src="https://latex.codecogs.com/gif.latex?x^{(i)}_{j}" />: <img src="https://latex.codecogs.com/gif.latex?i" />번째 데이터(학습 예제)의 <img src="https://latex.codecogs.com/gif.latex?j" />번째 특징의 값  ex) <img src="https://latex.codecogs.com/gif.latex?x^{(3)}_{1}" />: <img src="https://latex.codecogs.com/gif.latex?1534" />
+
+특징이 많을때는 가설을 아래와 같이 표현한다.
+
+<img src="./Week2/M_F_h_1.png" width="30%">
+
+여기서 계산과 표기를 쉽게하기 위해 <img src="https://latex.codecogs.com/gif.latex?x_{0}=0" />을 설정한다.
+
+<img src="./Week2/M_F_h_2.png" width="30%">
+
 ***
 ### 2. Gradient Descent for Multiple Variables
 
