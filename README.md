@@ -274,3 +274,21 @@ ex)
 행렬 <img src="https://latex.codecogs.com/gif.latex?A^{T}" />를 행렬 <img src="https://latex.codecogs.com/gif.latex?A" />의 전치행렬이라고 한다.   
 주대각선을 기준으로 서로 대칭을 이룬다.
 ***
+
+# Week2
+## Multivariate Linear Regression
+### 1. Multiple Features
+
+***
+### 2. Gradient Descent for Multiple Variables
+
+***
+### 3. Gradient Descent in Practice 1 - Feature
+
+***
+### 4. Gradient Descent in Practice 2 - Learning Rate
+
+***
+### 5. Features and Polynomial Regression
+
+***
