@@ -304,6 +304,14 @@ ex)
 ***
 ### 2. Gradient Descent for Multiple Variables
 
+이전에 경사하강법(Gradient Descent)을 아래와 같이 표현했었는데,
+
+<img src="./Week1/gradient_descent.png" width="30%">
+
+변수(특징)가 여러개일때는 아래와 같이 표현한다.
+
+<img src="./Week2/Gradient_Descent_Multi_Var.png" width="30%"><img src="./Week2/Gradient_Descent_Multi_Var_simple.png" width="30%">
+
 ***
 ### 3. Gradient Descent in Practice 1 - Feature
 
