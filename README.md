@@ -23,10 +23,10 @@
   - [Multivariate Linear Regression](#Multivariate-linear-regression)
     - [1. Multiple Features](#1-multiple-features)
     - [2. Gradient Descent for Multiple Variables](#2-gradient-descent-for-multiple-variables)
-    - [3. Gradient Descent in Practice 1 - Feature](#3-gradient-descent-in-practice-1-feature)
-    - [4. Gradient Descent in Practice 2 - Learning Rate](#4-gradient-descent-in-practice-2-learning-rate)
+    - [3. Gradient Descent in Practice 1 - Feature](#3-gradient-descent-in-practice-1---feature)
+    - [4. Gradient Descent in Practice 2 - Learning Rate](#4-gradient-descent-in-practice-2---learning-rate)
     - [5. Features and Polynomial Regression](#5-features-and-polynomial-regression)
-    - 
+    
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
