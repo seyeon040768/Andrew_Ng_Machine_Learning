@@ -20,6 +20,7 @@
     - [4. Matrix Matrix Multiplication](#4-matrix-matrix-multiplication)
     - [5. Matrix Multiplication Properties](#5-matrix-multiplication-properties)
     - [6. Inverse and Transpose](#6-inverse-and-transpose)
+- [Week2](#week2)
   - [Multivariate Linear Regression](#Multivariate-linear-regression)
     - [1. Multiple Features](#1-multiple-features)
     - [2. Gradient Descent for Multiple Variables](#2-gradient-descent-for-multiple-variables)
