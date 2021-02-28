@@ -20,6 +20,13 @@
     - [4. Matrix Matrix Multiplication](#4-matrix-matrix-multiplication)
     - [5. Matrix Multiplication Properties](#5-matrix-multiplication-properties)
     - [6. Inverse and Transpose](#6-inverse-and-transpose)
+  - [Multivariate Linear Regression](#Multivariate-linear-regression)
+    - [1. Multiple Features](#1-multiple-features)
+    - [2. Gradient Descent for Multiple Variables](#2-gradient-descent-for-multiple-variables)
+    - [3. Gradient Descent in Practice 1 - Feature](#3-gradient-descent-in-practice-1-feature)
+    - [4. Gradient Descent in Practice 2 - Learning Rate](#4-gradient-descent-in-practice-2-learning-rate)
+    - [5. Features and Polynomial Regression](#5-features-and-polynomial-regression)
+    - 
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
@@ -279,7 +286,7 @@ ex)
 ## Multivariate Linear Regression
 ### 1. Multiple Features
 
-<img src="./Week2/M_F_data.png" width="30%">
+<img src="./Week2/M_F_data.png" width="50%">
 
 <img src="https://latex.codecogs.com/gif.latex?n" />: 특징(feature)의 수  ex) <img src="https://latex.codecogs.com/gif.latex?n=4" /> Price는 <img src="https://latex.codecogs.com/gif.latex?y" />   
 <img src="https://latex.codecogs.com/gif.latex?x^{(i)}" />: <img src="https://latex.codecogs.com/gif.latex?i" />번째 데이터(학습 예제)  ex) <img src="https://latex.codecogs.com/gif.latex?x^{(2)}" />: <img src="https://latex.codecogs.com/gif.latex?[1416, 3, 2, 40]" />   
