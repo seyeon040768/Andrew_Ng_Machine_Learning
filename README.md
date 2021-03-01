@@ -24,7 +24,7 @@
   - [Multivariate Linear Regression](#Multivariate-linear-regression)
     - [1. Multiple Features](#1-multiple-features)
     - [2. Gradient Descent for Multiple Variables](#2-gradient-descent-for-multiple-variables)
-    - [3. Gradient Descent in Practice 1 - Feature](#3-gradient-descent-in-practice-1---feature)
+    - [3. Gradient Descent in Practice 1 - Feature Scaling](#3-gradient-descent-in-practice-1---feature-scaling)
     - [4. Gradient Descent in Practice 2 - Learning Rate](#4-gradient-descent-in-practice-2---learning-rate)
     - [5. Features and Polynomial Regression](#5-features-and-polynomial-regression)
     
@@ -315,8 +315,16 @@ ex)
 <img src="./Week2/Gradient_Descent_Multi_Var_simple.png" width="30%">
 
 ***
-### 3. Gradient Descent in Practice 1 - Feature
+### 3. Gradient Descent in Practice 1 - Feature Scaling
+경사하강법의 계산 속도를 증가시키기 위해 Feature Scaling을 진행한다.   
+Feature Scaling은 <img src="https://latex.codecogs.com/gif.latex?x" />값을 <img src="https://latex.codecogs.com/gif.latex?-1{\leq}x{\leq}1" />이나 <img src="https://latex.codecogs.com/gif.latex?-0.5{\leq}x{\leq}0.5" /> 사이로 만든다.
 
+계산식은 아래와 같다.
+
+<img src="https://latex.codecogs.com/gif.latex?x_{i}:=\frac{x_{i}-\mu_{i}}{s_{i}}" />
+
+<img src="https://latex.codecogs.com/gif.latex?\mu_{i}" />: <img src="https://latex.codecogs.com/gif.latex?x" />값들의 평균   
+<img src="https://latex.codecogs.com/gif.latex?s_{i}" />: <img src="https://latex.codecogs.com/gif.latex?max-min" /> 또는 표준편차
 ***
 ### 4. Gradient Descent in Practice 2 - Learning Rate
 
