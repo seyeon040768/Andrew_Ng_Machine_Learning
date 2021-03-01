@@ -27,6 +27,9 @@
     - [3. Gradient Descent in Practice 1 - Feature Scaling](#3-gradient-descent-in-practice-1---feature-scaling)
     - [4. Gradient Descent in Practice 2 - Learning Rate](#4-gradient-descent-in-practice-2---learning-rate)
     - [5. Features and Polynomial Regression](#5-features-and-polynomial-regression)
+ - [Week3](#week3)
+  - [Classification and Representation](#classification-and-Representation)
+    - [1. Classification](#1-classification)
     
 # Week1
 ## Introduction
@@ -342,4 +345,25 @@ Feature Scaling은 <img src="https://latex.codecogs.com/gif.latex?x" />값을 <i
 <img src="./Week2/polynomial_regression_h.png" width="30%">
 
 여기서 <img src="https://latex.codecogs.com/gif.latex?x^{2}" />이나 <img src="https://latex.codecogs.com/gif.latex?x^{3}" />은 Size를 제곱, 세제곱한 값이다.
+***
+
+# Week3
+## Classification and Representation
+### 1. Classification
+분류는 어떤 데이터를 여러 값중 하나로 분류하는 것이다.
+
+ex)
+스팸 메일 분류, 온라인 거래 사기 유무, 종양 악성 유무
+
+**Classification with Linear Regression**
+
+<img src="./Week3/classification_tumor_1.png" width="30%">
+
+위와 같은 데이터에 선형 회귀(Linear Regression)을 적용하면 그림과 같은 그래프가 나온다. <img src="https://latex.codecogs.com/gif.latex?y=0.5" />인 지점을 기준으로 앞은 양성종양, 뒤는 악성종양으로 분류하면 꽤 괜찮은 것 같이 보인다. 하지만 아래와 같은 그림을 보면 결과가 달라진다.
+
+<img src="./Week3/classification_tumor_2.png" width="30%">
+
+아까와 같이 <img src="https://latex.codecogs.com/gif.latex?y=0.5" />인 지점을 기준으로 나누면 문제가 생긴다. 
+
+이와 같이 분류(Classification) 문제는 선형 회귀를 통해 해결하기에는 무리가 있다.(일부 데이터에서는 정상적으로 작동할 수 있어도 대부분은 잘 작동하지 않을 것이다.)
 ***
