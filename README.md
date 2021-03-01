@@ -212,7 +212,7 @@ ex)
 
 <img src="./Week1/M_V_multi_ex_house_h.PNG" width="30%">
 
-위와 같이 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />을 <img src="https://latex.codecogs.com/gif.latex?-40" />과 <img src="https://latex.codecogs.com/gif.latex?0.25" />로 설정했을때 아래와 같이 나타낼 수 있다.
+위와 같이 <img src="https://latex.codecogs.com/gif.latex?\Theta_{0}" />과 <img src="https://latex.codecogs.com/gif.latex?\Theta_{1}" />을 <img src="https://latex.codecogs.com/gif.latex?-40" />과 <img src="https://latex.codecogs.com/gif.latex?0.25" />로 설정했을 때 아래와 같이 나타낼 수 있다.
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}1&2104\\1&1416\\1&1534\\1&852\end{bmatrix}\times\begin{bmatrix}-40\\0.25\end{bmatrix}" />
 
@@ -232,7 +232,7 @@ ex)
 
 <img src="./Week1/M_M_multi_ex_house.png" width="30%">
 
-다음과 같은 데이터와 가설들이 있을때, 아래와 같이 계산할 수 있다.
+다음과 같은 데이터와 가설들이 있을 때, 아래와 같이 계산할 수 있다.
 
 <img src="./Week1/M_M_multi_ex_house_result.png" width="30%">
 
@@ -240,7 +240,7 @@ ex)
 ### 5. Matrix Multiplication Properties
 **교환법칙(commutative property)**
 
-두 행렬 <img src="https://latex.codecogs.com/gif.latex?A" />와 <img src="https://latex.codecogs.com/gif.latex?B" />가 있을때, <img src="https://latex.codecogs.com/gif.latex?A{\cdot}B{\neq}B{\cdot}A" />이다.(교환법칙이 성립하지 않는다.)
+두 행렬 <img src="https://latex.codecogs.com/gif.latex?A" />와 <img src="https://latex.codecogs.com/gif.latex?B" />가 있을 때, <img src="https://latex.codecogs.com/gif.latex?A{\cdot}B{\neq}B{\cdot}A" />이다.(교환법칙이 성립하지 않는다.)
 
 ex)
 
@@ -250,7 +250,7 @@ ex)
 
 **결합법칙(associated law)**
 
-행렬 <img src="https://latex.codecogs.com/gif.latex?A" />, <img src="https://latex.codecogs.com/gif.latex?B" />와 <img src="https://latex.codecogs.com/gif.latex?C" />가 있을때, <img src="https://latex.codecogs.com/gif.latex?(A{\cdot}B){\cdot}C=A{\cdot}(B{\cdot}C)" />이다.(결합법칙이 성립한다.)
+행렬 <img src="https://latex.codecogs.com/gif.latex?A" />, <img src="https://latex.codecogs.com/gif.latex?B" />와 <img src="https://latex.codecogs.com/gif.latex?C" />가 있을 때, <img src="https://latex.codecogs.com/gif.latex?(A{\cdot}B){\cdot}C=A{\cdot}(B{\cdot}C)" />이다.(결합법칙이 성립한다.)
 
 ex)
 
@@ -265,7 +265,7 @@ ex)
 ### 6. Inverse and Transpose
 **역행렬(Inverse Matrix)**
 
-행렬 <img src="https://latex.codecogs.com/gif.latex?A" />와 곱했을때 항등행렬이 나오는 행렬을 <img src="https://latex.codecogs.com/gif.latex?A" />의 역행렬이라 하고 <img src="https://latex.codecogs.com/gif.latex?A^{-1}" />와 같이 표현한다.
+행렬 <img src="https://latex.codecogs.com/gif.latex?A" />와 곱했을 때 항등행렬이 나오는 행렬을 <img src="https://latex.codecogs.com/gif.latex?A" />의 역행렬이라 하고 <img src="https://latex.codecogs.com/gif.latex?A^{-1}" />와 같이 표현한다.
 
 ex)
 
@@ -293,7 +293,7 @@ ex)
 <img src="https://latex.codecogs.com/gif.latex?x^{(i)}" />: <img src="https://latex.codecogs.com/gif.latex?i" />번째 데이터(학습 예제)  ex) <img src="https://latex.codecogs.com/gif.latex?x^{(2)}" />: <img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}1416&3&2&40\end{bmatrix}" />   
 <img src="https://latex.codecogs.com/gif.latex?x^{(i)}_{j}" />: <img src="https://latex.codecogs.com/gif.latex?i" />번째 데이터(학습 예제)의 <img src="https://latex.codecogs.com/gif.latex?j" />번째 특징의 값  ex) <img src="https://latex.codecogs.com/gif.latex?x^{(3)}_{1}" />: <img src="https://latex.codecogs.com/gif.latex?1534" />
 
-특징이 많을때는 가설을 아래와 같이 표현한다.
+특징이 많을 때는 가설을 아래와 같이 표현한다.
 
 <img src="./Week2/M_F_h_1.png" width="30%">
 
@@ -308,7 +308,7 @@ ex)
 
 <img src="./Week1/gradient_descent.png" width="30%">
 
-변수(특징)가 여러개일때는 아래와 같이 표현한다.
+변수(특징)가 여러개일 때는 아래와 같이 표현한다.
 
 <img src="./Week2/Gradient_Descent_Multi_Var.png" width="30%">
 
@@ -327,8 +327,19 @@ Feature Scaling은 <img src="https://latex.codecogs.com/gif.latex?x" />값을 <i
 <img src="https://latex.codecogs.com/gif.latex?s_{i}" />: <img src="https://latex.codecogs.com/gif.latex?max-min" /> 또는 표준편차
 ***
 ### 4. Gradient Descent in Practice 2 - Learning Rate
+만약 <img src="https://latex.codecogs.com/gif.latex?\alpha" />(Learning Rate)이 너무 크다면 반복할 때마다 비용함수의 값이 증가한다.   
+만약 <img src="https://latex.codecogs.com/gif.latex?\alpha" />(Learning Rate)이 너무 작다면 반복할 때마다 비용함수의 값이 매우 조금씩 감소한다.
 
+만약 <img src="https://latex.codecogs.com/gif.latex?\alpha" />가 충분히 작다면 반복할 때마다 비용함수의 값이 계속 감소한다.
 ***
 ### 5. Features and Polynomial Regression
 
+<img src="./Week2/polynomial_regression_graph.png" width="30%">
+
+위와 같은 데이터가 있을 때, 직선(일차함수) 모양의 가설로는 정확한 예측을 하기 어렵다.   
+이때 아래와 같은 가설을 사용할 수 있다.
+
+<img src="./Week2/polynomial_regression_h.png" width="30%">
+
+여기서 <img src="https://latex.codecogs.com/gif.latex?x^{2}" />이나 <img src="https://latex.codecogs.com/gif.latex?x^{3}" />은 Size를 제곱, 세제곱한 값이다.
 ***
