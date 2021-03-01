@@ -27,10 +27,9 @@
     - [3. Gradient Descent in Practice 1 - Feature Scaling](#3-gradient-descent-in-practice-1---feature-scaling)
     - [4. Gradient Descent in Practice 2 - Learning Rate](#4-gradient-descent-in-practice-2---learning-rate)
     - [5. Features and Polynomial Regression](#5-features-and-polynomial-regression)
- - [Week3](#week3)
+- [Week3](#week3)
   - [Classification and Representation](#classification-and-Representation)
-    - [1. Classification](#1-classification)
-    
+    - [1. Classification](#1-classification) 
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
