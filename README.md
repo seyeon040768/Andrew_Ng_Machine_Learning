@@ -359,7 +359,8 @@ ex)
 
 <img src="./Week3/classification_tumor_1.png" width="30%">
 
-위와 같은 데이터에 선형 회귀(Linear Regression)을 적용하면 그림과 같은 그래프가 나온다. <img src="https://latex.codecogs.com/gif.latex?y=0.5" />인 지점을 기준으로 앞은 양성종양, 뒤는 악성종양으로 분류하면 꽤 괜찮은 것 같이 보인다. 하지만 아래와 같은 그림을 보면 결과가 달라진다.
+위와 같은 데이터에 선형 회귀(Linear Regression)을 적용하면 그림과 같은 그래프가 나온다.   
+<img src="https://latex.codecogs.com/gif.latex?y=0.5" />인 지점을 기준으로 앞은 양성종양, 뒤는 악성종양으로 분류하면 꽤 괜찮은 것 같이 보인다. 하지만 아래와 같은 그림을 보면 결과가 달라진다.
 
 <img src="./Week3/classification_tumor_2.png" width="30%">
 
