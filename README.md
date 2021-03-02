@@ -31,6 +31,7 @@
   - [Classification and Representation](#classification-and-Representation)
     - [1. Classification](#1-classification)
     - [2. Hypothesis Representation](#2-hypothesis-representation)
+    - [3. Decision Boundary](#3-decision-boundary)
 
 # Week1
 ## Introduction
@@ -383,4 +384,30 @@ Logistic Regression에서는 아래와 같은 가설을 사용한다.
 
 가설을 위와 같이 표현할 수도 있는데, <img src="https://latex.codecogs.com/gif.latex?P(y=0|x;\theta)" />는 쉽게 말해 <img src="https://latex.codecogs.com/gif.latex?y" />가 <img src="https://latex.codecogs.com/gif.latex?0" />인 확률을 의미한다.
 
+***
+# 3. Decision Boundary
+
+<img src="./Week3/hypothesis_representation_sigmoid_graph.png" width="30%">
+
+만약 <img src="https://latex.codecogs.com/gif.latex?h_{\Theta}(x)\geq0.5" />이면 <img src="https://latex.codecogs.com/gif.latex?y=1" />이고,   
+만약 <img src="https://latex.codecogs.com/gif.latex?h_{\Theta}(x)<0.5" />이면 <img src="https://latex.codecogs.com/gif.latex?y=0" />이다.
+
+**Decision Boundary(Linear)**
+
+<img src="./Week3/decision_boundary_graph_1.png" width="30%"><img src="./Week3/decision_boundary_h_1.png" width="30%">
+
+위와 같은 데이터와 가설이 있을 때, <img src="https://latex.codecogs.com/gif.latex?\theta_{0}=-3,\theta_{1}=1,\theta_{2}=1" />이라고 하면 <img src="https://latex.codecogs.com/gif.latex?-3+x_{1}+x_{2}\geq0" />일 때, <img src="https://latex.codecogs.com/gif.latex?y=1" />이 된다.
+
+예를 들어 <img src="https://latex.codecogs.com/gif.latex?x_{1}=1,x_{2}=2" />이면 <img src="https://latex.codecogs.com/gif.latex?-1<0" />이므로 <img src="https://latex.codecogs.com/gif.latex?y=0" />이 된다. 실제로 그림에서 확인해보면 <img src="https://latex.codecogs.com/gif.latex?(1,1)" /> 지점은 그래프아래에 위치하는것을 볼 수 있다.
+
+**Decision Boundary(Non-linear)**
+
+<img src="./Week3/decision_boundary_graph_2.png" width="30%"><img src="./Week3/decision_boundary_h_2.png" width="30%">
+
+이번에는 직선으로 두 데이터를 나누기는 어려워 보인다. 이럴때에는 Polynomial Regression에서 했던것 처럼 위와 같이 가설을 만들어 주면 된다. 
+
+<img src="https://latex.codecogs.com/gif.latex?\theta_{0}=-1,\theta_{1}=0,\theta_{2}=0,\theta_{3}=1,\theta_{4}=1" />와 같이 설정해 주면  <img src="https://latex.codecogs.com/gif.latex?-1+x_{1}^{2}+x_{2}^{2}\geq0" />일 때, <img src="https://latex.codecogs.com/gif.latex?y=1" />이 된다.   
+여기서 앞에 나온 식은 반지름이 1이고 중심이 <img src="https://latex.codecogs.com/gif.latex?(10,0)" />인 원의 방정식이다.
+    
+이렇게 데이터를 나누는 경계선을 Decision Boundary라고 하며, 이는 가설에 의해 결정된다는 것을 알 수 있다.
 ***
