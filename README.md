@@ -29,7 +29,9 @@
     - [5. Features and Polynomial Regression](#5-features-and-polynomial-regression)
 - [Week3](#week3)
   - [Classification and Representation](#classification-and-Representation)
-    - [1. Classification](#1-classification) 
+    - [1. Classification](#1-classification)
+    - [2. Hypothesis Representation](#2-hypothesis-representation)
+
 # Week1
 ## Introduction
 ### 1. What is Machine Learning?
@@ -366,4 +368,19 @@ ex)
 아까와 같이 <img src="https://latex.codecogs.com/gif.latex?y=0.5" />인 지점을 기준으로 나누면 문제가 생긴다. 
 
 이와 같이 분류(Classification) 문제는 선형 회귀를 통해 해결하기에는 무리가 있다.(일부 데이터에서는 정상적으로 작동할 수 있어도 대부분은 잘 작동하지 않을 것이다.)
+***
+### 2. Hypothesis Representation
+
+Logistic Regression에서는 아래와 같은 가설을 사용한다.
+
+<img src="./Week3/hypothesis_representation_sigmoid.png" width="30%">
+
+여기서 맨 아래에 있는 식은 Sigmoid Function 또는 Logistic Function이라고 하며 개형은 아래와 같다.
+
+<img src="./Week3/hypothesis_representation_sigmoid_graph.png" width="30%">
+
+<img src="./Week3/hypothesis_representation_p.png" width="30%">
+
+가설을 위와 같이 표현할 수도 있는데, <img src="https://latex.codecogs.com/gif.latex?P(y=0|x;\theta)" />는 쉽게 말해 img src="https://latex.codecogs.com/gif.latex?y" />가 img src="https://latex.codecogs.com/gif.latex?0" />인 확률을 의미한다.
+
 ***
