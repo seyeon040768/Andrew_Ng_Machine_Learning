@@ -381,6 +381,6 @@ Logistic Regression에서는 아래와 같은 가설을 사용한다.
 
 <img src="./Week3/hypothesis_representation_p.png" width="30%">
 
-가설을 위와 같이 표현할 수도 있는데, <img src="https://latex.codecogs.com/gif.latex?P(y=0|x;\theta)" />는 쉽게 말해 img src="https://latex.codecogs.com/gif.latex?y" />가 img src="https://latex.codecogs.com/gif.latex?0" />인 확률을 의미한다.
+가설을 위와 같이 표현할 수도 있는데, <img src="https://latex.codecogs.com/gif.latex?P(y=0|x;\theta)" />는 쉽게 말해 <img src="https://latex.codecogs.com/gif.latex?y" />가 <img src="https://latex.codecogs.com/gif.latex?0" />인 확률을 의미한다.
 
 ***
