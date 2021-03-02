@@ -374,7 +374,7 @@ ex)
 
 Logistic Regression에서는 아래와 같은 가설을 사용한다.
 
-<img src="./Week3/hypothesis_representation_sigmoid.png" width="30%">
+<img src="./Week3/hypothesis_representation_sigmoid.png" width="20%">
 
 여기서 맨 아래에 있는 식은 Sigmoid Function 또는 Logistic Function이라고 하며 개형은 아래와 같다.
 
@@ -407,7 +407,7 @@ Logistic Regression에서는 아래와 같은 가설을 사용한다.
 이번에는 직선으로 두 데이터를 나누기는 어려워 보인다. 이럴때에는 Polynomial Regression에서 했던것 처럼 위와 같이 가설을 만들어 주면 된다. 
 
 <img src="https://latex.codecogs.com/gif.latex?\theta_{0}=-1,\theta_{1}=0,\theta_{2}=0,\theta_{3}=1,\theta_{4}=1" />와 같이 설정해 주면  <img src="https://latex.codecogs.com/gif.latex?-1+x_{1}^{2}+x_{2}^{2}\geq0" />일 때, <img src="https://latex.codecogs.com/gif.latex?y=1" />이 된다.   
-여기서 앞에 나온 식은 반지름이 1이고 중심이 <img src="https://latex.codecogs.com/gif.latex?(10,0)" />인 원의 방정식이다.
-    
+여기서 앞에 나온 식은 반지름이 1이고 중심이 <img src="https://latex.codecogs.com/gif.latex?(0,0)" />인 원의 방정식이다.
+<br/><br/>
 이렇게 데이터를 나누는 경계선을 Decision Boundary라고 하며, 이는 가설에 의해 결정된다는 것을 알 수 있다.
 ***
