@@ -35,6 +35,7 @@
   - [Logistic Regression Model](#logistic-regression-model)
     - [1. Cost Function](#1-cost-function)
     - [2. Simplified Cost Function and Gradient Descent](#2-simplified-cost-function-and-gradient-descent)
+    - [3. Advanced Optimization](#3-advanced-optimization)
 
 # Week1
 ## Introduction
@@ -450,4 +451,11 @@ vectorized한 식은 아래와 같다.
 
 놀랍게도 선형회귀의 비용함수를 미분한 식과 같다.
 
+***
+
+### 3. Advanced Optimization
+
+경사하강법 외에도 conjugate gradient, BFGS, L-BFGS와 같은 여러 알고리즘들이 존재한다.
+
+이러한 알고리즘들은 경사하강법보다 빠르고 학습률을 정해주지 않아도 되지만 복잡하다는 단점이 있다.
 ***
