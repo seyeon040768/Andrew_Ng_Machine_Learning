@@ -32,6 +32,8 @@
     - [1. Classification](#1-classification)
     - [2. Hypothesis Representation](#2-hypothesis-representation)
     - [3. Decision Boundary](#3-decision-boundary)
+  - [Logistic Regression Model](#logistic-regression-model)
+    - [1. Cost Function](#1-cost-function)
 
 # Week1
 ## Introduction
@@ -410,4 +412,22 @@ Logistic Regression에서는 아래와 같은 가설을 사용한다.
 여기서 앞에 나온 식은 반지름이 1이고 중심이 <img src="https://latex.codecogs.com/gif.latex?(0,0)" />인 원의 방정식이다.
 
 이렇게 데이터를 나누는 경계선을 **Decision Boundary**라고 하며, 이는 가설에 의해 결정된다는 것을 알 수 있다.
+***
+
+## Logistic Regression Model
+### 1. Cost Function
+
+<img src="./Week3/cost_function.png" width="30%">
+
+Logistic Regression의 비용함수는 위와 같다.   
+<img src="https://latex.codecogs.com/gif.latex?y" />에 따라 식이 달라지는데 그 이유는 아래 그래프를 보면 된다.
+
+<img src="./Week3/cost_function_graph.png" width="30%">
+
+<img src="https://latex.codecogs.com/gif.latex?(0,0)" />을 지나는 그래프가 <img src="https://latex.codecogs.com/gif.latex?y=0" />의 적용되는 비용함수이고 다른 그래프는 그 반대이다.
+
+가설 <img src="https://latex.codecogs.com/gif.latex?h(x)" />의 값은 시그모이드 함수를 통해 정해지기 때문에 무조건 <img src="https://latex.codecogs.com/gif.latex?0" />과 <img src="https://latex.codecogs.com/gif.latex?1" /> 사이의 값을 가진다. 
+
+만약 결과(<img src="https://latex.codecogs.com/gif.latex?y" />)가 <img src="https://latex.codecogs.com/gif.latex?0" />일때, 가설의 값이 <img src="https://latex.codecogs.com/gif.latex?0" />에 가까울수록(정확할수록) 작아지고(<img src="https://latex.codecogs.com/gif.latex?0" />에 가까워지며 <img src="https://latex.codecogs.com/gif.latex?x=0" />이외에는 양수이다.) 가설의 값이 <img src="https://latex.codecogs.com/gif.latex?1" />에 가까울수록(부정확할수록) 기하급수적으로 커진다. 
+
 ***
