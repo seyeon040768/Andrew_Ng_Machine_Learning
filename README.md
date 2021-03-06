@@ -34,6 +34,7 @@
     - [3. Decision Boundary](#3-decision-boundary)
   - [Logistic Regression Model](#logistic-regression-model)
     - [1. Cost Function](#1-cost-function)
+    - [2. Simplified Cost Function and Gradient Descent](#2-simplified-cost-function-and-gradient-descent)
 
 # Week1
 ## Introduction
@@ -429,5 +430,24 @@ Logistic Regression의 비용함수는 위와 같다.
 가설 <img src="https://latex.codecogs.com/gif.latex?h(x)" />의 값은 시그모이드 함수를 통해 정해지기 때문에 무조건 <img src="https://latex.codecogs.com/gif.latex?0" />과 <img src="https://latex.codecogs.com/gif.latex?1" /> 사이의 값을 가진다. 
 
 만약 결과(<img src="https://latex.codecogs.com/gif.latex?y" />)가 <img src="https://latex.codecogs.com/gif.latex?0" />일때, 가설의 값이 <img src="https://latex.codecogs.com/gif.latex?0" />에 가까울수록(정확할수록) 작아지고(<img src="https://latex.codecogs.com/gif.latex?0" />에 가까워지며 <img src="https://latex.codecogs.com/gif.latex?x=0" />이외에는 양수이다.) 가설의 값이 <img src="https://latex.codecogs.com/gif.latex?1" />에 가까울수록(부정확할수록) 기하급수적으로 커진다. 
+
+***
+
+### 2. Simplified Cost Function and Gradient Descent
+
+<img src="./Week3/cost_function_simplified.png" width="30%">   
+<img src="./Week3/cost_function_simplified_full.png" width="30%">
+
+비용함수를 간단하게 표현하면 위와 같다. <img src="https://latex.codecogs.com/gif.latex?y" />값이 <img src="https://latex.codecogs.com/gif.latex?0" />이나 <img src="https://latex.codecogs.com/gif.latex?1" />일때에 때라 두 항중 하나의 항이 사라지게 된다.
+
+vectorized한 식은 아래와 같다.
+
+<img src="./Week3/cost_function_vectorized.png" width="30%">
+
+비용함수를 미분한 식은 아래와 같은데,
+
+<img src="./Week3/gradient_descent.png" width="30%">
+
+놀랍게도 선형회귀의 비용함수를 미분한 식과 같다.
 
 ***
