@@ -37,7 +37,7 @@
     - [2. Simplified Cost Function and Gradient Descent](#2-simplified-cost-function-and-gradient-descent)
     - [3. Advanced Optimization](#3-advanced-optimization)
   - [Multiclass Classification](#multiclass-classification)
-    - [1. Multiclass Classification: One-vs-all](#1-multiclass-classification:-one-vs-all)
+    - [1. Multiclass Classification: One-vs-all](#1-multiclass-classification-one-vs-all)
 
 # Week1
 ## Introduction
