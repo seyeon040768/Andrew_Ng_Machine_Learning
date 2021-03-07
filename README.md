@@ -465,7 +465,7 @@ vectorized한 식은 아래와 같다.
 ## Multiclass Classification
 ### 1. Multiclass Classification: One-vs-all
 
-결과값이 img src="https://latex.codecogs.com/gif.latex?0" />과 <img src="https://latex.codecogs.com/gif.latex?1" /> 중에서만 나오는 이진 분류와 달리 그 3개 이상의 결과값이 나오는 경우가 있을 수도 있다.
+결과값이 <img src="https://latex.codecogs.com/gif.latex?0" />과 <img src="https://latex.codecogs.com/gif.latex?1" /> 중에서만 나오는 이진 분류와 달리 그 3개 이상의 결과값이 나오는 경우가 있을 수도 있다.
 
 ex)   
 이메일 분류 : 업무, 친구, 가족, 취미
