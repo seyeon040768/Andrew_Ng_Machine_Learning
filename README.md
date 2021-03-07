@@ -36,6 +36,8 @@
     - [1. Cost Function](#1-cost-function)
     - [2. Simplified Cost Function and Gradient Descent](#2-simplified-cost-function-and-gradient-descent)
     - [3. Advanced Optimization](#3-advanced-optimization)
+  - [Multiclass Classification](#multiclass-classification)
+    - [1. Multiclass Classification: One-vs-all](#1-multiclass-classification:-one-vs-all)
 
 # Week1
 ## Introduction
@@ -458,4 +460,24 @@ vectorized한 식은 아래와 같다.
 경사하강법 외에도 conjugate gradient, BFGS, L-BFGS와 같은 여러 알고리즘들이 존재한다.
 
 이러한 알고리즘들은 경사하강법보다 빠르고 학습률을 정해주지 않아도 되지만 복잡하다는 단점이 있다.
+***
+
+## Multiclass Classification
+### 1. Multiclass Classification: One-vs-all
+
+결과값이 img src="https://latex.codecogs.com/gif.latex?0" />과 <img src="https://latex.codecogs.com/gif.latex?1" /> 중에서만 나오는 이진 분류와 달리 그 3개 이상의 결과값이 나오는 경우가 있을 수도 있다.
+
+ex)   
+이메일 분류 : 업무, 친구, 가족, 취미
+
+<img src="./Week3/multiclass_classification_graph.png" width="30%">
+
+위와 같이 결과값이 3개인 경우에는 각 class와 나머지 class를 나누어서 가설을 3개 만들면 된다.   
+나중에 예측할 때에는 3개의 가설을 모두 테스트 해본 뒤에 가장 큰 값이 나온 가설에 해당하는 class일 확률이 높다고 판단하면 된다.(시그모이드 함수를 통해 계산하기 때문에 가장 큰 수일 수록 1에 가깝다. 즉 확률이 높다는 뜻이다.)
+
+이러한 방식을 One-vs-all 방식이라고 한다.
+
+수식으로 표현하면 아래와 같다.
+
+<img src="https://latex.codecogs.com/gif.latex?\max_{i}(h_{\theta}^{(i)}(x))" />
 ***
