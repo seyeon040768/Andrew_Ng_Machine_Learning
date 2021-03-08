@@ -518,6 +518,25 @@ overfitting이 일어나는 이유는 너무 많은 특징(feature)을 사용했
 ***
 ### 2. Cost Function
 
+<img src="./Week3/cost_function_1_graph.png" width="30%">
+
+위 그림의 오른쪽 그래프와 같은 overfitting 문제를 해결하기 위해서는 <img src="https://latex.codecogs.com/gif.latex?\theta" />값을 작게 만들어 주면 된다.
+
+<img src="./Week3/cost_function_1_1000.png" width="30%">
+
+위 식과 같이 비용함수의 <img src="https://latex.codecogs.com/gif.latex?\theta" />부분에 큰 수를 곱해주면 된다.
+
+**Regularization**
+
+<img src="https://latex.codecogs.com/gif.latex?\theta_{0},\theta_{1},\theta_{2},\cdots,\theta_{n}" />들이 작은 값을 갖도록 설정한다.
+  - 가설을 단순하게 한다.
+  - overfitting 가능성이 작아진다.
+
+<img src="./Week3/cost_function_1_regularization.png" width="30%">
+
+위 식처럼 작게 만들고 싶은 값 앞에 <img src="https://latex.codecogs.com/gif.latex?\theta" />(패널티)를 곱한다.
+
+하지만 여기서 <img src="https://latex.codecogs.com/gif.latex?\theta" />가 너무 크다면 underfitting이 될 수도 있다.
 ***
 ### 3. Regularized Linear Regression
 
