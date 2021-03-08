@@ -526,7 +526,7 @@ overfitting이 일어나는 이유는 너무 많은 특징(feature)을 사용했
 
 위 식과 같이 비용함수의 <img src="https://latex.codecogs.com/gif.latex?\theta" />부분에 큰 수를 곱해주면 된다.
 
-**Regularization**
+**Regularization(정규화)**
 
 <img src="https://latex.codecogs.com/gif.latex?\theta_{0},\theta_{1},\theta_{2},\cdots,\theta_{n}" />들이 작은 값을 갖도록 설정한다.
   - 가설을 단순하게 한다.
@@ -540,7 +540,34 @@ overfitting이 일어나는 이유는 너무 많은 특징(feature)을 사용했
 ***
 ### 3. Regularized Linear Regression
 
+**Gradient Descent**
+
+<img src="./Week3/re_linear_gd.png" width="30%">
+
+정규화를 적용한 비용함수를 경사하강법과 결합한 후 편미분 하면 위와 같은 식이 나온다.   
+<img src="https://latex.codecogs.com/gif.latex?\theta_{0}" />의 경우 어짜피 <img src="https://latex.codecogs.com/gif.latex?x_{0}" />이 <img src="https://latex.codecogs.com/gif.latex?1" />이기 때문에 정규화를 할 필요가 없다.
+
+<img src="./Week3/re_linear_gd_1.png" width="30%">
+
+식을 정리하면 위와 같은 식이 나온다.
+
+**Normal Equation**
+
+<img src="./Week3/re_linear_ne.png" width="30%">
+
+Normal Eeuation은 위와 같은 방법으로 진행할 수 있다.
+
 ***
 ### 4. Regularized Logistic Regression
+
+<img src="./Week3/re_logistic_co.png" width="30%">
+
+로지스틱 회귀에서의 정규화는 위와 같이 비용함수 마지막에 <img src="https://latex.codecogs.com/gif.latex?\lambda" />가 포함된 식이 더해진 방식으로 쓸 수 있다.
+
+<img src="./Week3/re_logistic_gd.png" width="30%">
+
+경사하강법은 위와 같이 쓸 수 있다.   
+선형 회귀에서의 정규화와 마찬가지로 <img src="https://latex.codecogs.com/gif.latex?x_{0}" />이 <img src="https://latex.codecogs.com/gif.latex?1" />이기 때문에 <img src="https://latex.codecogs.com/gif.latex?\theta_{0}" />는 정규화 하지 않아도 된다.
+여기서 가설함수 <img src="https://latex.codecogs.com/gif.latex?h_{\theta}(x^{(i)})" />는 선형 회귀와 달리 시그모이드 함수를 통해 계산된 값이다.
 
 ***
