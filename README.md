@@ -40,7 +40,7 @@
     - [1. Multiclass Classification: One-vs-all](#1-multiclass-classification-one-vs-all)
   - [Solving the Problem of Overfitting](#solving-the-problem-of-overfitting)
     - [1. The Problem of Overfitting](#1-the-problem-of-overfitting)
-    - [2. Cost Function](#2-cost-function)
+    - [2. Cost Function](#2-cost-function-1)
     - [3. Regularized Linear Regression](#3-regularized-linear-regression)
     - [4. Regularized Logistic Regression](#4-regularized-logistic-regression)
 
