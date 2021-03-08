@@ -38,6 +38,11 @@
     - [3. Advanced Optimization](#3-advanced-optimization)
   - [Multiclass Classification](#multiclass-classification)
     - [1. Multiclass Classification: One-vs-all](#1-multiclass-classification-one-vs-all)
+  - [Solving the Problem of Overfitting](#solving-the-problem-of-overfitting)
+    - [1. The Problem of Overfitting](#1-the-problem-of-overfitting)
+    - [2. Cost Function](#2-cost-function)
+    - [3. Regularized Linear Regression](#3-regularized-linear-regression)
+    - [4. Regularized Logistic Regression](#4-regularized-logistic-regression)
 
 # Week1
 ## Introduction
@@ -480,4 +485,43 @@ ex)
 수식으로 표현하면 아래와 같다.
 
 <img src="https://latex.codecogs.com/gif.latex?\max_{i}(h_{\theta}^{(i)}(x))" />
+***
+
+## Solving the Problem of Overfitting
+### 1. The Problem of Overfitting
+
+<img src="./Week3/overfitting_graph.png" width="30%">
+
+위 그림에서 왼쪽에 있는 그래프는 데이터와 별로 일치하지 않는 모습을 보여준다. - underfitting(과소적합)   
+위 그림에서 중간에 있는 그래프는 데이터와 나름 잘 일치하는 모습을 보여준다.   
+위 그림에서 오른쪽에 있는 그래프는 데이터와 너무 잘 일치하는 모습을 보여준다.(하지만 정확한 예측을 할것이라고 보기는 어렵다.) = overfitting(과적합)
+
+이렇게 데이터와 잘 일치하지 않는 현상을 underfitting이라고 하고 데이터와 너무 잘 일치하는 현상을 overfitting이라고 한다. overfitting이 문제인 이유는 training set에만 너무 잘 맞아 실제 예측을 할 때 정확한 결과는 내놓기 어렵기 때문이다.
+
+<img src="./Week3/overfitting_graph_logistic.png" width="30%">
+
+위 그림에서도 왼쪽부터 차례대로 underfitting, 정상, overfitting을 보여주고 있다.
+
+**Overfitting이 일어나는 이유**
+
+overfitting이 일어나는 이유는 너무 많은 특징(feature)을 사용했어나 너무 고차항의 가설을 설정했기 때문이다.
+
+**Overfitting 해결방법**
+
+[1. Feature의 수를 줄인다.]
+  - [필요한 Feature만 선택한다.]
+  - [Model Selection 알고리즘을 사용한다.]
+[2. Regularization(정규화)]
+  - [모든 Feature을 유지하되 θ의 값을 작게한다.]
+  - [Feature가 결과 값을 예측하는데 조금씩만 작용하게 한다.]
+
+***
+### 2. Cost Function
+
+***
+### 3. Regularized Linear Regression
+
+***
+### 4. Regularized Logistic Regression
+
 ***
