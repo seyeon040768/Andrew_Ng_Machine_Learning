@@ -534,9 +534,9 @@ overfitting이 일어나는 이유는 너무 많은 특징(feature)을 사용했
 
 <img src="./Week3/cost_function_1_regularization.png" width="30%">
 
-위 식처럼 작게 만들고 싶은 값 앞에 <img src="https://latex.codecogs.com/gif.latex?\theta" />(패널티)를 곱한다.
+위 식처럼 작게 만들고 싶은 값 앞에 <img src="https://latex.codecogs.com/gif.latex?\lambda" />(패널티)를 곱한다.
 
-하지만 여기서 <img src="https://latex.codecogs.com/gif.latex?\theta" />가 너무 크다면 underfitting이 될 수도 있다.
+하지만 여기서 <img src="https://latex.codecogs.com/gif.latex?\lambda" />가 너무 크다면 underfitting이 될 수도 있다.
 ***
 ### 3. Regularized Linear Regression
 
