@@ -508,12 +508,12 @@ overfitting이 일어나는 이유는 너무 많은 특징(feature)을 사용했
 
 **Overfitting 해결방법**
 
-[1. Feature의 수를 줄인다.]
-  - [필요한 Feature만 선택한다.]
-  - [Model Selection 알고리즘을 사용한다.]
-[2. Regularization(정규화)]
-  - [모든 Feature을 유지하되 θ의 값을 작게한다.]
-  - [Feature가 결과 값을 예측하는데 조금씩만 작용하게 한다.]
+1. Feature의 수를 줄인다.
+    - 필요한 Feature만 선택한다.
+    - Model Selection 알고리즘을 사용한다.
+2. Regularization(정규화)
+    - 모든 Feature을 유지하되 θ의 값을 작게한다.
+    - Feature가 결과 값을 예측하는데 조금씩만 작용하게 한다.
 
 ***
 ### 2. Cost Function
