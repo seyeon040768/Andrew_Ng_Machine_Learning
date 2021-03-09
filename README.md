@@ -564,7 +564,7 @@ Normal Eeuation은 위와 같은 방법으로 진행할 수 있다.
 
 로지스틱 회귀에서의 정규화는 위와 같이 비용함수 마지막에 <img src="https://latex.codecogs.com/gif.latex?\lambda" />가 포함된 식이 더해진 방식으로 쓸 수 있다.
 
-<img src="./Week3/re_logistic_gd.png" width="30%">
+<img src="./Week3/re_logistic_gradient_descent.png" width="30%">
 
 경사하강법은 위와 같이 쓸 수 있다.   
 선형 회귀에서의 정규화와 마찬가지로 <img src="https://latex.codecogs.com/gif.latex?x_{0}" />이 <img src="https://latex.codecogs.com/gif.latex?1" />이기 때문에 <img src="https://latex.codecogs.com/gif.latex?\theta_{0}" />는 정규화 하지 않아도 된다.
