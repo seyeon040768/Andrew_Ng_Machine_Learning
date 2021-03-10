@@ -622,21 +622,21 @@ Normal Eeuation은 위와 같은 방법으로 진행할 수 있다.
 위 그림은 뉴럴 네트워크의 구조를 간단하게 나타낸 것이다.   
 여기서 세로로 나누면 3개의 층이 나오는데 첫번째 층을 입력층, 두번째 층을 은닉층, 마지막 층을 출력층이라고 한다.
 
-각 층에는 bias unit 이라고 해서 <img src="https://latex.codecogs.com/gif.latex?x_0" />와 같이 표현하는데, 항상 값이 1 그림을 그릴 때에는 주로 생략한다.
+각 층에는 bias unit 이라고 해서 <img src="https://latex.codecogs.com/gif.latex?x_{0}" />와 같이 표현하는데, 항상 값이 1 그림을 그릴 때에는 주로 생략한다.
 
-<img src="https://latex.codecogs.com/gif.latex?h\theta(x)" />는 classification에서와 마찬가지로 시그모이드 함수를 사용한다.
+<img src="https://latex.codecogs.com/gif.latex?h_{\theta}(x)" />는 classification에서와 마찬가지로 시그모이드 함수를 사용한다.
 
 <img src="./Week4/neural_network_3_3_1.png" width="30%">
 
-<img src="https://latex.codecogs.com/gif.latex?a^(j)_i" />: <img src="https://latex.codecogs.com/gif.latex?j" />번째 층의 <img src="https://latex.codecogs.com/gif.latex?i" />번째 유닛   
-<img src="https://latex.codecogs.com/gif.latex?\Theta^(j)" />: <img src="https://latex.codecogs.com/gif.latex?j" />번째 층에서 <img src="https://latex.codecogs.com/gif.latex?j+1" />번째 층으로 가는 가중치 행렬이다.
+<img src="https://latex.codecogs.com/gif.latex?a^{(j)}_{i}" />: <img src="https://latex.codecogs.com/gif.latex?j" />번째 층의 <img src="https://latex.codecogs.com/gif.latex?i" />번째 유닛   
+<img src="https://latex.codecogs.com/gif.latex?\Theta^{(j)}" />: <img src="https://latex.codecogs.com/gif.latex?j" />번째 층에서 <img src="https://latex.codecogs.com/gif.latex?j+1" />번째 층으로 가는 가중치 행렬이다.
 
 <img src="./Week4/neural_network_calculate.png" width="30%">
 
 계산은 위와 같이 한다.
 
 <img src="https://latex.codecogs.com/gif.latex?\Theta^(j)_ab" />: <img src="https://latex.codecogs.com/gif.latex?j" />번째 층의 <img src="https://latex.codecogs.com/gif.latex?b" />번째 유닛에서  <img src="https://latex.codecogs.com/gif.latex?j+1" />번째 층의  <img src="https://latex.codecogs.com/gif.latex?" />번째 유닛으로 가는 가중치   
-ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^(1)_21" />: 1번째 층의 1번째 유닛에서 2번째 층의 2번째 유닛으로 가는 가중치
+ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번째 층의 1번째 유닛에서 2번째 층의 2번째 유닛으로 가는 가중치
 
 ***
 ### 2. Model Representation II
