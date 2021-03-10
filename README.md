@@ -47,6 +47,9 @@
   - [Motivations](#motivations)
     - [1. Non-linear Hypotheses](#1-non-linear-hypotheses)
     - [2. Neurons and the Brain](#2-neurons-and-the-brain)
+  - [Neural Networks](#neural-networks)
+    - [1. Model Representation I](#1-model-representation-i)
+    - [2. Model Representation II](#2-model-representation-ii)
 
 # Week1
 ## Introduction
@@ -604,4 +607,12 @@ Normal Eeuation은 위와 같은 방법으로 진행할 수 있다.
 위 그림처럼 청각을 맡고있는 부분에 시신경을 연결하면 뇌가 학습해 보는 법을 배운다.
 
 뉴럴 네트워크는 이러한 뇌의 특징을 모방해 컴퓨터가 스스로 학습하게 하려는 목적에서 연구되었다.
+***
+
+## Neural Networks
+### 1. Model Representation I
+
+***
+### 2. Model Representation II
+
 ***
