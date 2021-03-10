@@ -43,6 +43,10 @@
     - [2. Cost Function](#2-cost-function-1)
     - [3. Regularized Linear Regression](#3-regularized-linear-regression)
     - [4. Regularized Logistic Regression](#4-regularized-logistic-regression)
+- [Week4](#week4)
+  - [Motivations](#motivations)
+    - [1. Non-linear Hypotheses](#1-non-linear-hypotheses)
+    - [2. Neurons and the Brain](#2-neurons-and-the-brain)
 
 # Week1
 ## Introduction
@@ -522,7 +526,7 @@ overfitting이 일어나는 이유는 너무 많은 특징(feature)을 사용했
 
 위 그림의 오른쪽 그래프와 같은 overfitting 문제를 해결하기 위해서는 <img src="https://latex.codecogs.com/gif.latex?\theta" />값을 작게 만들어 주면 된다.
 
-<img src="./Week3/cost_function_1_1000.png" width="30%">
+<img src="./Week3/cost_function_1_1000.png" width="50%">
 
 위 식과 같이 비용함수의 <img src="https://latex.codecogs.com/gif.latex?\theta" />부분에 큰 수를 곱해주면 된다.
 
@@ -542,12 +546,12 @@ overfitting이 일어나는 이유는 너무 많은 특징(feature)을 사용했
 
 **Gradient Descent**
 
-<img src="./Week3/re_linear_gd.png" width="30%">
+<img src="./Week3/re_linear_gd.png" width="50%">
 
 정규화를 적용한 비용함수를 경사하강법과 결합한 후 편미분 하면 위와 같은 식이 나온다.   
 <img src="https://latex.codecogs.com/gif.latex?\theta_{0}" />의 경우 어짜피 <img src="https://latex.codecogs.com/gif.latex?x_{0}" />이 <img src="https://latex.codecogs.com/gif.latex?1" />이기 때문에 정규화를 할 필요가 없다.
 
-<img src="./Week3/re_linear_gd_1.png" width="30%">
+<img src="./Week3/re_linear_gd_1.png" width="50%">
 
 식을 정리하면 위와 같은 식이 나온다.
 
@@ -560,14 +564,38 @@ Normal Eeuation은 위와 같은 방법으로 진행할 수 있다.
 ***
 ### 4. Regularized Logistic Regression
 
-<img src="./Week3/re_logistic_co.png" width="30%">
+<img src="./Week3/re_logistic_co.png" width="50%">
 
 로지스틱 회귀에서의 정규화는 위와 같이 비용함수 마지막에 <img src="https://latex.codecogs.com/gif.latex?\lambda" />가 포함된 식이 더해진 방식으로 쓸 수 있다.
 
-<img src="./Week3/re_logistic_gradient_descent.png" width="30%">
+<img src="./Week3/re_logistic_gradient_descent.png" width="50%">
 
 경사하강법은 위와 같이 쓸 수 있다.   
 선형 회귀에서의 정규화와 마찬가지로 <img src="https://latex.codecogs.com/gif.latex?x_{0}" />이 <img src="https://latex.codecogs.com/gif.latex?1" />이기 때문에 <img src="https://latex.codecogs.com/gif.latex?\theta_{0}" />는 정규화 하지 않아도 된다.
 여기서 가설함수 <img src="https://latex.codecogs.com/gif.latex?h_{\theta}(x^{(i)})" />는 선형 회귀와 달리 시그모이드 함수를 통해 계산된 값이다.
+
+***
+
+# Week4
+## Motivations
+### 1. Non-linear Hypotheses
+
+<img src="./Week4/non_linear_classification.png" width="30%">
+
+위 그림과 같이 복잡하거나 비선형적인 분류 문제는 Feature가 너무 많아 계산도 오래걸리고 overfitting이 일어나기 쉽다.   
+만약 Feature가 100개정도 있다고 할 때, 나오는 항의 개수는 5000개나 된다.(100개중에 2개를 고르는 조합 문제이다.)
+
+<img src="./Week4/non_linear_classification.png" width="30%">
+
+우리가 자동차를 볼 때는 왼쪽 그림처럼 보지만 컴퓨터가 자동차를 볼때는 오른쪽 그림처럼 행렬의 형태로 본다. 여기서 행렬의 원소들은 각 픽셀의 밝기이다.
+
+<img src="./Week4/non_linear_hypotheses_car_graph.png" width="30%">
+
+그림과 같이 픽셀 2개를 가져와 그래프에 나타내면 자동차와 자동차가 아닌 것이 나뉘어지는 모습을 볼 수 있다.
+
+만약 <img src="https://latex.codecogs.com/gif.latex?50\times50" />개의 픽셀이 있다면 총 2500개의 Feature가 있는것인데 우리가 배운 방식으로 계산(분류)하려면 약 300만개의 항이 나온다. 이렇게 많은 feature가 나와버리면 overfitting이 일어날 수도 있고 계산하는데 너무 많은 시간이 필요하다.
+
+***
+### 2. Neurons and the Brain
 
 ***
