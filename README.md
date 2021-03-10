@@ -635,7 +635,7 @@ Normal Eeuation은 위와 같은 방법으로 진행할 수 있다.
 
 계산은 위와 같이 한다.
 
-<img src="https://latex.codecogs.com/gif.latex?\Theta^(j)_ab" />: <img src="https://latex.codecogs.com/gif.latex?j" />번째 층의 <img src="https://latex.codecogs.com/gif.latex?b" />번째 유닛에서  <img src="https://latex.codecogs.com/gif.latex?j+1" />번째 층의  <img src="https://latex.codecogs.com/gif.latex?" />번째 유닛으로 가는 가중치   
+<img src="https://latex.codecogs.com/gif.latex?\Theta^{(j)}_{ab}" />: <img src="https://latex.codecogs.com/gif.latex?j" />번째 층의 <img src="https://latex.codecogs.com/gif.latex?b" />번째 유닛에서  <img src="https://latex.codecogs.com/gif.latex?j+1" />번째 층의  <img src="https://latex.codecogs.com/gif.latex?a" />번째 유닛으로 가는 가중치   
 ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번째 층의 1번째 유닛에서 2번째 층의 2번째 유닛으로 가는 가중치
 
 ***
