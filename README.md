@@ -645,14 +645,14 @@ ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번�
 
 앞에서 배웠던 식에서 <img src="https://latex.codecogs.com/gif.latex?g" />안에 있는 식을 <img src="https://latex.codecogs.com/gif.latex?z^{(j)}_i" />와 같이 나타낼 수 있고 <img src="https://latex.codecogs.com/gif.latex?j" />번째 층의 <img src="https://latex.codecogs.com/gif.latex?i" />번째 유닛으로 간다는 뜻이다.
 
-<img src="./Week4/forward_propagation_x_z.png" width="50%">
+<img src="./Week4/forward_propagation_x_z.png" width="30%">
 
 위와 같이 <img src="https://latex.codecogs.com/gif.latex?x" />와 <img src="https://latex.codecogs.com/gif.latex?z" />를 행렬 형태로 나타낼 수 있다. 
 
 <img src="./Week4/forward_propagation_z_a.png" width="30%"><img src="./Week4/forward_propagation_z_h.png" width="30%">
 
 그럼 위와 같이 행렬의 곱 형태로 나타낼 수 있다.   
-여기서 <img src="https://latex.codecogs.com/gif.latex?x" /> 대신 <img src="https://latex.codecogs.com/gif.latex?a_{(1)}" />이라고 나타낼 수도 있다.
+여기서 <img src="https://latex.codecogs.com/gif.latex?x" /> 대신 <img src="https://latex.codecogs.com/gif.latex?a^{(1)}" />이라고 나타낼 수도 있다.
 
 이렇게 앞으로 나아가며 계산하는 것을 Forward propagation이라고 한다.
 
