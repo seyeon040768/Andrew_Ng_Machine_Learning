@@ -50,6 +50,10 @@
   - [Neural Networks](#neural-networks)
     - [1. Model Representation I](#1-model-representation-i)
     - [2. Model Representation II](#2-model-representation-ii)
+  - [Applications](#applications)
+    - [1. Examples and Intuitions I](#1-examples-and-intuitions-i)
+    - [2. Examples and Intuitions II](#2-examples-and-intuitions-ii)
+    - [3. Multiclass Classification](#3-multiclass-classification)
 
 # Week1
 ## Introduction
@@ -659,4 +663,15 @@ ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번�
 <img src="./Week4/4_layer_NN.png" width="30%">
 
 위 그림과 같은 모양의 뉴럴 네트워크에서는 2번째 층과 3번째 층이 은닉층이다.
+***
+
+## Applications
+### 1. Examples and Intuitions I
+
+***
+### 2. Examples and Intuitions II
+
+***
+### 3. Multiclass Classification
+
 ***
