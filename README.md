@@ -689,7 +689,7 @@ ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번�
 ***
 ### 2. Examples and Intuitions II
 
-<img src="./Week4/negation.png" width="30%">
+<img src="./Week4/negation.png" width="20%">
 
 위와 같은 뉴럴 네트워크로 negation(부정)을 나타낼 수 있다.   
 이걸 응용하면 아래와 같이 nand 게이트를 만들 수 있다.
@@ -702,5 +702,17 @@ ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번�
 
 ***
 ### 3. Multiclass Classification
+
+<img src="./Week4/negation.png" width="30%">
+
+주어진 이미지를 위와 같이 4개의 class로 중 무엇인지 판단할 때, 뉴럴 네트워크를 아래와 같이 나타낼 수 있다.
+
+<img src="./Week4/multiclass_classification_neural_network.png" width="30%">
+
+4개의 class로 분류해야 하기 때문에 출력층이 4개이다.
+
+<img src="./Week4/multiclass_classification_output.png" width="30%">
+
+결과값은 위와 같이 <img src="https://latex.codecogs.com/gif.latex?4\times1" /> 형태의 행렬이며, 해당하는 class만 1로 나오고 나머지는 0으로 나온다.
 
 ***
