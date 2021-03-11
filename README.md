@@ -689,6 +689,17 @@ ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번�
 ***
 ### 2. Examples and Intuitions II
 
+<img src="./Week4/negation.png" width="30%">
+
+위와 같은 뉴럴 네트워크로 negation(부정)을 나타낼 수 있다.   
+이걸 응용하면 아래와 같이 nand 게이트를 만들 수 있다.
+
+<img src="./Week4/and_nand_or.png" width="50%">
+
+그리고 이 3가지 게이트를 조합하면 아래와 같이 xnor 게이트를 만들 수 있다.
+
+<img src="./Week4/xnor.png" width="30%">
+
 ***
 ### 3. Multiclass Classification
 
