@@ -703,7 +703,7 @@ ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번�
 ***
 ### 3. Multiclass Classification
 
-<img src="./Week4/negation.png" width="30%">
+<img src="./Week4/multiclass_classification_classes.png" width="30%">
 
 주어진 이미지를 위와 같이 4개의 class로 중 무엇인지 판단할 때, 뉴럴 네트워크를 아래와 같이 나타낼 수 있다.
 
