@@ -649,7 +649,7 @@ ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번�
 
 위와 같이 <img src="https://latex.codecogs.com/gif.latex?x" />와 <img src="https://latex.codecogs.com/gif.latex?z" />를 행렬 형태로 나타낼 수 있다. 
 
-<img src="./Week4/forward_propagation_z_a.png" width="30%"><img src="./Week4/forward_propagation_z_h.png" width="30%">
+<img src="./Week4/forward_propagation_z_a.png" width="20%"><img src="./Week4/forward_propagation_z_h.png" width="20%">
 
 그럼 위와 같이 행렬의 곱 형태로 나타낼 수 있다.   
 여기서 <img src="https://latex.codecogs.com/gif.latex?x" /> 대신 <img src="https://latex.codecogs.com/gif.latex?a^{(1)}" />이라고 나타낼 수도 있다.
