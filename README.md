@@ -631,7 +631,7 @@ Normal Eeuation은 위와 같은 방법으로 진행할 수 있다.
 <img src="https://latex.codecogs.com/gif.latex?a^{(j)}_{i}" />: <img src="https://latex.codecogs.com/gif.latex?j" />번째 층의 <img src="https://latex.codecogs.com/gif.latex?i" />번째 유닛   
 <img src="https://latex.codecogs.com/gif.latex?\Theta^{(j)}" />: <img src="https://latex.codecogs.com/gif.latex?j" />번째 층에서 <img src="https://latex.codecogs.com/gif.latex?j+1" />번째 층으로 가는 가중치 행렬이다.
 
-<img src="./Week4/neural_network_calculate.png" width="30%">
+<img src="./Week4/neural_network_calculate.png" width="50%">
 
 계산은 위와 같이 한다.
 
