@@ -668,6 +668,24 @@ ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번�
 ## Applications
 ### 1. Examples and Intuitions I
 
+**And 게이트**
+
+<img src="./Week4/3_layer_NN.png" width="30%">
+
+가중치가 위부터 차례대로 -30, 20, 20이라고 하면 아래 표처럼 And 게이트가 만들어진다.
+
+<img src="./Week4/and.png" width="30%">
+
+**Or 게이트**
+
+<img src="./Week4/or_NN.png" width="30%">
+
+위와 같은 뉴럴 네트워크가 있을 때, <img src="https://latex.codecogs.com/gif.latex?x" />값에 따른 결과값은 아래와 같다.
+
+<img src="./Week4/or.png" width="30%">
+
+이렇게 뉴럴 네트워크는 기존의 방식으로 만들기 어려웠던 다양한 논리 게이트나 시스템들을 만들 수 있게 해준다.
+
 ***
 ### 2. Examples and Intuitions II
 
