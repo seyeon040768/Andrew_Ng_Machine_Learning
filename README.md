@@ -726,6 +726,21 @@ ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번�
 ## Cost Function and Backpropagation
 ### 1. Cost Function
 
+<img src="./Week4/4_layer_NN_multi.png" width="30%">
+
+<img src="https://latex.codecogs.com/gif.latex?L" />: layer의 개수   
+위 그림에서 <img src="https://latex.codecogs.com/gif.latex?L" />: 4
+
+<img src="https://latex.codecogs.com/gif.latex?sl" />: <img src="https://latex.codecogs.com/gif.latex?l" />번째 layer의 unit의 개수(bias 미포함)   
+위 그림에서 <img src="https://latex.codecogs.com/gif.latex?s2" />: 5
+
+<img src="https://latex.codecogs.com/gif.latex?K" />: output layer의 unit 개수
+위 그림에서 <img src="https://latex.codecogs.com/gif.latex?K" />: 4
+
+**Cost Function**
+
+<img src="./Week4/4_layer_NN_multi.png" width="30%">
+
 ***
 ### 2. Backpropagation Algorithm
 
