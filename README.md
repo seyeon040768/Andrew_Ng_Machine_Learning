@@ -645,14 +645,15 @@ Normal Eeuation은 위와 같은 방법으로 진행할 수 있다.
 계산은 위와 같이 한다.
 
 <img src="https://latex.codecogs.com/gif.latex?\Theta^{(j)}_{ab}" />: <img src="https://latex.codecogs.com/gif.latex?j" />번째 층의 <img src="https://latex.codecogs.com/gif.latex?b" />번째 유닛에서  <img src="https://latex.codecogs.com/gif.latex?j+1" />번째 층의  <img src="https://latex.codecogs.com/gif.latex?a" />번째 유닛으로 가는 가중치   
-ex)  <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번째 층의 1번째 유닛에서 2번째 층의 2번째 유닛으로 가는 가중치
+ex) <img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)}_{21}" />: 1번째 층의 1번째 유닛에서 2번째 층의 2번째 유닛으로 가는 가중치
 
 ***
 ### 2. Model Representation II
 
 <img src="./Week4/neural_network_calculate.png" width="50%">
 
-앞에서 배웠던 식에서 <img src="https://latex.codecogs.com/gif.latex?g" />안에 있는 식을 <img src="https://latex.codecogs.com/gif.latex?z^{(j)}_i" />와 같이 나타낼 수 있고 <img src="https://latex.codecogs.com/gif.latex?j" />번째 층의 <img src="https://latex.codecogs.com/gif.latex?i" />번째 유닛으로 간다는 뜻이다.
+앞에서 배웠던 식에서 <img src="https://latex.codecogs.com/gif.latex?g" />안에 있는 식을 <img src="https://latex.codecogs.com/gif.latex?z^{(j)}_i" />와 같이 나타낼 수 있고 <img src="https://latex.codecogs.com/gif.latex?j" />번째 층의 <img src="https://latex.codecogs.com/gif.latex?i" />번째 유닛에 시그모이드 함수를 적용하기 전이라고 생각하면 쉽다.   
+ex) <img src="https://latex.codecogs.com/gif.latex?a^{(2)}_1=g(z^{(2)}_1)" />
 
 <img src="./Week4/forward_propagation_x_z.png" width="30%">
 
