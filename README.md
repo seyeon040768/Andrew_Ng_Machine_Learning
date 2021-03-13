@@ -740,10 +740,34 @@ ex) <img src="https://latex.codecogs.com/gif.latex?a^{(2)}_1=g(z^{(2)}_1)" />
 
 **Cost Function**
 
-<img src="./Week5/4_layer_NN_multi.png" width="30%">
+<img src="./Week5/NN_cost.png" width="30%">
 
 ***
 ### 2. Backpropagation Algorithm
+
+<img src="./Week5/4_layer_NN_multi.png" width="30%">
+
+위와 같은 뉴럴 네트워크에서는 아래와 같은 계산 과정을 거친다.
+
+<img src="./Week5/FP.png" width="30%">
+
+**Backpropagation Algorithm**
+
+<img src="https://latex.codecogs.com/gif.latex?\delta^{(j)}_i" />: <img src="https://latex.codecogs.com/gif.latex?l" />번째 layer <img src="https://latex.codecogs.com/gif.latex?j" />번째 노드의 오류(error)
+
+<img src="./Week5/delta_last.png" width="30%"><img src="./Week5/delta_calculate.png" width="30%">
+
+와 같은 식으로 <img src="https://latex.codecogs.com/gif.latex?\delta" />를 나타낼 수 있다.
+
+여기서 <img src="https://latex.codecogs.com/gif.latex?g^{'}(z^{(3)})" />는 <img src="https://latex.codecogs.com/gif.latex?g(z^{(3)})" />를 미분한 식으로 아래와 같이 나타낼 수 있다.
+
+<img src="./Week5/z_2_a.png" width="30%">
+
+시그모이드 함수 미분은 아래처럼 할 수 있기 때문에 위와 같은 식이 나온다.
+
+<img src="./Week5/sigmoid_calculus.png" width="30%">   
+<img src="https://latex.codecogs.com/gif.latex?(g(z^{(3)}) = a^{(3)})" />
+
 
 ***
 ### 3. Backpropagation Intuition
