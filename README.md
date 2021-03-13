@@ -766,8 +766,7 @@ ex) <img src="https://latex.codecogs.com/gif.latex?a^{(2)}_1=g(z^{(2)}_1)" />
 시그모이드 함수 미분은 아래처럼 할 수 있기 때문에 위와 같은 식이 나온다.
 
 <img src="./Week5/sigmoid_calculus.png" width="30%">   
-<img src="https://latex.codecogs.com/gif.latex?(g(z^{(3)}) = a^{(3)})" />
-
+<img src="https://latex.codecogs.com/gif.latex?(g(z^{(3)})=a^{(3)})" />
 
 ***
 ### 3. Backpropagation Intuition
