@@ -775,15 +775,14 @@ ex) <img src="https://latex.codecogs.com/gif.latex?a^{(2)}_1=g(z^{(2)}_1)" />
 
 유도 과정을 아래와 같다.
 
-<img src="./Week5/nn_cost_derivative_process.png" width="30%">
-
+<img src="./Week5/nn_cost_derivative_process.png" width="30%">   
 (연쇄 법칙을 이용한 유도 과정)
 
 <img src="./Week5/training_set.png" width="30%">
 
 위와 같은 학습 데이터가 있을 때
 
-<img src="https://latex.codecogs.com/gif.latex?\Delta^{(l)}_{ij}" />는 <img src="https://latex.codecogs.com/gif.latex?a^{(l)}_{j}\delta^{(l+1)}_}" />를 누적해서 더한 것과 같다.
+<img src="https://latex.codecogs.com/gif.latex?\Delta^{(l)}_{ij}" />는 <img src="https://latex.codecogs.com/gif.latex?a^{(l)}_{j}\delta^{(l+1)}_{i}" />를 누적해서 더한 것과 같다.
 
 <img src="./Week5/delta_loop.png" width="40%">
 
