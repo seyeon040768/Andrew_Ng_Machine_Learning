@@ -803,7 +803,7 @@ ex) <img src="https://latex.codecogs.com/gif.latex?a^{(2)}_1=g(z^{(2)}_1)" />
 Forward propagation은 <img src="https://latex.codecogs.com/gif.latex?a^{(j)}_i" />와 가중치를 곱해 다음 노드의 값이 정해진다.   
 ex)
 
-<img src="./Week5/neural_network_calculate.png" width="30%">
+<img src="./Week4/neural_network_calculate.png" width="30%">
 
 Back propagation에서는 <img src="https://latex.codecogs.com/gif.latex?\delta^{(j)}_i" />와 가중치를 곱해 이전 노드의 <img src="https://latex.codecogs.com/gif.latex?\delta" />값이 정해진다.
 
