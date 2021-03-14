@@ -740,7 +740,7 @@ ex) <img src="https://latex.codecogs.com/gif.latex?a^{(2)}_1=g(z^{(2)}_1)" />
 
 **Cost Function**
 
-<img src="./Week5/NN_cost.png" width="30%">
+<img src="./Week5/NN_cost.png" width="70%">
 
 ***
 ### 2. Backpropagation Algorithm
@@ -765,8 +765,37 @@ ex) <img src="https://latex.codecogs.com/gif.latex?a^{(2)}_1=g(z^{(2)}_1)" />
 
 시그모이드 함수 미분은 아래처럼 할 수 있기 때문에 위와 같은 식이 나온다.
 
-<img src="./Week5/sigmoid_calculus.png" width="30%">   
+<img src="./Week5/sigmoid_calculus.png" width="30%">
+
 <img src="https://latex.codecogs.com/gif.latex?(g(z^{(3)})=a^{(3)})" />
+
+위 식을 정리하면 아래와 같은 식이 나온다.
+
+<img src="./Week5/nn_cost_derivative.png" width="30%">
+
+유도 과정을 아래와 같다.
+
+<img src="./Week5/nn_cost_derivative_process.png" width="30%">
+
+(연쇄 법칙을 이용한 유도 과정)
+
+<img src="./Week5/training_set.png" width="30%">
+
+위와 같은 학습 데이터가 있을 때
+
+<img src="https://latex.codecogs.com/gif.latex?\Delta^{(l)}_{ij}" />는 <img src="https://latex.codecogs.com/gif.latex?a^{(l)}_{j}\delta^{(l+1)}_}" />를 누적해서 더한 것과 같다.
+
+<img src="./Week5/delta_loop.png" width="40%">
+
+순서대로 보면   
+1. Forward propagation을 해서 <img src="https://latex.codecogs.com/gif.latex?a^{(l)}" />을 구한다.   
+2. Back propagation을 해서 각 <img src="https://latex.codecogs.com/gif.latex?\delta" />를 구한다.   
+3. 1과 2를 서로 곱한후 <img src="https://latex.codecogs.com/gif.latex?\Delta" />에 더한다.   
+와 같은 순으로 진행한다.
+
+그리고 <img src="https://latex.codecogs.com/gif.latex?\Delta" />를 아래와 같이 표현한다.
+
+<img src="./Week5/delta_d.png" width="30%"><img src="./Week5/j_d.png" width="30%">
 
 ***
 ### 3. Backpropagation Intuition
