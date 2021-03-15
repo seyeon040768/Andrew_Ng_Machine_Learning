@@ -59,6 +59,11 @@
     - [1. Cost Function](#1-cost-function-1)
     - [2. Backpropagation Algorithm](#2-backpropagation-algorithm)
     - [3. Backpropagation Intuition](#3-backpropagation-intuition)
+  - [Backpropagation in Practice](#backpropagation-in-practice)
+    - [1. Implementation Note: Unrolling Parameters](#1-implementation-note:-unrolling-parameters)
+    - [2. Gradient Checking](#2-gradient-checking)
+    - [3. Random Initialization](#3-random-initialization)
+    - [4. Putting it Together](#4-putting-it-together)
 
 # Week1
 ## Introduction
@@ -806,5 +811,39 @@ ex)
 <img src="./Week4/neural_network_calculate.png" width="30%">
 
 Back propagation에서는 <img src="https://latex.codecogs.com/gif.latex?\delta^{(j)}_i" />와 가중치를 곱해 이전 노드의 <img src="https://latex.codecogs.com/gif.latex?\delta" />값이 정해진다.
+
+***
+
+## Backpropagation in Practice
+### 1. Implementation Note: Unrolling Parameters
+
+<img src="https://latex.codecogs.com/gif.latex?\Theta^{(1)},\Theta^{(2)},\Theta^{(3)},\dots" />   
+<img src="https://latex.codecogs.com/gif.latex?D^{(1)},D^{(2)},D^{(3)},\dots" />
+
+fminunc()나 다른 optimize 알고리즘을 사용하려면 vector 형태의 값이 필요하기 때문에 위의 값들을 백터로 만들어야 한다.
+
+```
+thetaVector = [ Theta1(:); Theta2(:); Theta3(:); ]  
+deltaVector = [ D1(:); D2(:); D3(:) ]
+```
+
+위와 같은 코드(Octave)를 이용해 백터로 합칠 수 있다.
+
+```
+Theta1 = reshape(thetaVector(1:110),10,11)  
+Theta2 = reshape(thetaVector(111:220),10,11)  
+Theta3 = reshape(thetaVector(221:231),1,11)
+```
+
+위와 같은 코드를 사용하면 다시 분리할 수 있다.
+
+***
+### 2. Gradient Checking
+
+***
+### 3. Random Initialization
+
+***
+### 4. Putting it Together
 
 ***
