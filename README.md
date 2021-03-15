@@ -60,7 +60,7 @@
     - [2. Backpropagation Algorithm](#2-backpropagation-algorithm)
     - [3. Backpropagation Intuition](#3-backpropagation-intuition)
   - [Backpropagation in Practice](#backpropagation-in-practice)
-    - [1. Implementation Note: Unrolling Parameters](#1-implementation-note:-unrolling-parameters)
+    - [1. Implementation Note: Unrolling Parameters](#1-implementation-note-unrolling-parameters)
     - [2. Gradient Checking](#2-gradient-checking)
     - [3. Random Initialization](#3-random-initialization)
     - [4. Putting it Together](#4-putting-it-together)
