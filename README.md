@@ -808,7 +808,7 @@ ex) <img src="https://latex.codecogs.com/gif.latex?a^{(2)}_1=g(z^{(2)}_1)" />
 Forward propagation은 <img src="https://latex.codecogs.com/gif.latex?a^{(j)}_i" />와 가중치를 곱해 다음 노드의 값이 정해진다.   
 ex)
 
-<img src="./Week4/neural_network_calculate.png" width="30%">
+<img src="./Week4/neural_network_calculate.png" width="50%">
 
 Back propagation에서는 <img src="https://latex.codecogs.com/gif.latex?\delta^{(j)}_i" />와 가중치를 곱해 이전 노드의 <img src="https://latex.codecogs.com/gif.latex?\delta" />값이 정해진다.
 
@@ -839,6 +839,17 @@ Theta3 = reshape(thetaVector(221:231),1,11)
 
 ***
 ### 2. Gradient Checking
+
+Backpropagation이 잘 작동하는지 알아보기 위해 Gradient Checking을 사용한다.
+
+<img src="./Week5/gradient_checking_graph.png" width="30%">
+
+위 그림처럼 그래프 위의 한 점으로부터 <img src="https://latex.codecogs.com/gif.latex?\epsilon" />만큼 떨어진 두 점을 이용해 기울기를 구하면 된다.   
+그러면 위 그림처럼 한 점에 접하는 직선의 기울기와 우리가 구한 직선의 기울기가 비슷해진다.
+
+<img src="./Week5/gradient_checking.png" width="30%">
+
+계산은 위와 같이 할 수 있다.
 
 ***
 ### 3. Random Initialization
