@@ -847,12 +847,41 @@ Backpropagation이 잘 작동하는지 알아보기 위해 Gradient Checking을 
 위 그림처럼 그래프 위의 한 점으로부터 <img src="https://latex.codecogs.com/gif.latex?\epsilon" />만큼 떨어진 두 점을 이용해 기울기를 구하면 된다.   
 그러면 위 그림처럼 한 점에 접하는 직선의 기울기와 우리가 구한 직선의 기울기가 비슷해진다.
 
-<img src="./Week5/gradient_checking.png" width="30%">
+<img src="./Week5/gradient_checking.png" width="35%">
 
 계산은 위와 같이 할 수 있다.
 
+```
+epsilon = 1e-4;  
+for i = 1:n,  
+  thetaPlus = theta;  
+  thetaPlus(i) += epsilon;  
+  thetaMinus = theta;  
+  thetaMinus(i) -= epsilon;  
+  gradApprox(i) = (J(thetaPlus) - J(thetaMinus))/(2*epsilon)  
+end;
+```
+
+Octave 코드는 위와 같다.
+
 ***
 ### 3. Random Initialization
+
+NN에서 모든 <img src="https://latex.codecogs.com/gif.latex?\theta" />값을 0으로 초기화하면 정상적으로 작동하지 않는다.
+
+<img src="./Week5/nn_with_value.png" width="35%">
+
+위와 같은 뉴럴 네트워크에서 만약 모든 <img src="https://latex.codecogs.com/gif.latex?\theta" />값이 0으로 초기화 된다면 입력값에 따른 두 은닉층의 유닛들(<img src="https://latex.codecogs.com/gif.latex?a^{(2)}_{1}, a^{(2)}_{2}" />)의 값이 같아진다. 그래서 Backpropagation을 할 때에도 <img src="https://latex.codecogs.com/gif.latex?\theta" />(ex <img src="https://latex.codecogs.com/gif.latex?\theta^{(1)}_{11}, \theta^{(1)}_{12}" />등)에 대한 편미분 값, 즉 경사가 같아진다.
+
+이를 해결하기 위해서는 <img src="https://latex.codecogs.com/gif.latex?\theta" />를 <img src="https://latex.codecogs.com/gif.latex?[-\epsilon, \epsilon]" /> 사이의 범위로 초기화 한다.(여기서 <img src="https://latex.codecogs.com/gif.latex?\epsilon" />은 2. Gradient Checking에서 설정했던 <img src="https://latex.codecogs.com/gif.latex?\epsilon" />과는 아무런 관련이 없다.)
+
+```
+Theta1 = rand(10,11) * (2 * INIT_EPSILON) - INIT_EPSILON;  
+Theta2 = rand(10,11) * (2 * INIT_EPSILON) - INIT_EPSILON;  
+Theta3 = rand(1,11) * (2 * INIT_EPSILON) - INIT_EPSILON;
+```
+
+Octave 코드는 위와 같다.
 
 ***
 ### 4. Putting it Together
