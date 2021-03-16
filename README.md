@@ -886,4 +886,21 @@ Octave 코드는 위와 같다.
 ***
 ### 4. Putting it Together
 
+**Neural Network architecture**
+
+뉴럴 네트워크의 레이아웃을 정해야 한다.   
+1. Input unit의 개수   
+2. Output unit의 개수   
+3. layer당 은닉층의 개수(많을수록 성능이 향상되지만, 연산 cost가 증가한다.)
+
+
+**Training a Neural Network**
+
+1. 가중치를 랜덤하게 초기화   
+2. <img src="https://latex.codecogs.com/gif.latex?h_\Theta(x^{(i)})" />를 구하기 위해 Forward Propagation 실행   
+3. 비용 함수 계산   
+4. Back Propagation을 통해 편미분 계산   
+5. Gradient Checking을 이용해 Back Propagation이 정상 작동하고 있는지 확인 후 Gradient Checking 종료   
+6. 경사하강법이나 Optimization 함수를 통해 비용 함수 최소화
+
 ***
