@@ -873,7 +873,7 @@ NN에서 모든 <img src="https://latex.codecogs.com/gif.latex?\theta" />값을 
 
 위와 같은 뉴럴 네트워크에서 만약 모든 <img src="https://latex.codecogs.com/gif.latex?\theta" />값이 0으로 초기화 된다면 입력값에 따른 두 은닉층의 유닛들(<img src="https://latex.codecogs.com/gif.latex?a^{(2)}_{1}, a^{(2)}_{2}" />)의 값이 같아진다. 그래서 Backpropagation을 할 때에도 <img src="https://latex.codecogs.com/gif.latex?\theta" />(ex <img src="https://latex.codecogs.com/gif.latex?\theta^{(1)}_{11}, \theta^{(1)}_{12}" />등)에 대한 편미분 값, 즉 경사가 같아진다.
 
-이를 해결하기 위해서는 <img src="https://latex.codecogs.com/gif.latex?\theta" />를 <img src="https://latex.codecogs.com/gif.latex?[-\epsilon, \epsilon]" /> 사이의 범위로 초기화 한다.(여기서 <img src="https://latex.codecogs.com/gif.latex?\epsilon" />은 2. Gradient Checking에서 설정했던 <img src="https://latex.codecogs.com/gif.latex?\epsilon" />과는 아무런 관련이 없다.)
+이를 해결하기 위해서는 <img src="https://latex.codecogs.com/gif.latex?\theta" />를 <img src="https://latex.codecogs.com/gif.latex?[-\epsilon,\epsilon]" /> 사이의 범위로 초기화 한다.(여기서 <img src="https://latex.codecogs.com/gif.latex?\epsilon" />은 2. Gradient Checking에서 설정했던 <img src="https://latex.codecogs.com/gif.latex?\epsilon" />과는 아무런 관련이 없다.)
 
 ```
 Theta1 = rand(10,11) * (2 * INIT_EPSILON) - INIT_EPSILON;  
