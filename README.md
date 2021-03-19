@@ -64,6 +64,11 @@
     - [2. Gradient Checking](#2-gradient-checking)
     - [3. Random Initialization](#3-random-initialization)
     - [4. Putting it Together](#4-putting-it-together)
+- [Week6](#week6)
+  - [Evaluating a Learning Algorithm](#evaluating-a-learning-algorithm)
+    - [1. Deciding What to Try Next](#1-deciding-what-to-try-next)
+    - [2. Evaluating a Hypothesis](#2-evaluating-a-hypothesis)
+    - [3. Model Selection and Train/Validation/Test Sets](#3-model-selection-and-train/validation/vest-sets)
 
 # Week1
 ## Introduction
@@ -904,3 +909,23 @@ Octave 코드는 위와 같다.
 6. 경사하강법이나 Optimization 함수를 통해 비용 함수 최소화
 
 ***
+
+# Week6
+## Evaluating a Learning Algorithm
+### 1. Deciding What to Try Next
+
+집값을 예측하는 선형회귀 문제가 있다.
+
+만약 테스트를 했는데 너무 큰 에러(큰 비용함수 값)이 나온다면 어떻게 해야할까?
+
+1. 학습 데이터를 더 확보한다.   
+2. feature의 수를 줄인다.   
+3. 추가 feature를 고려한다.   
+4. polynomial features를 추가한다.   
+5. <img src="https://latex.codecogs.com/gif.latex?\lambda" /> 값을 줄인다.   
+6. <img src="https://latex.codecogs.com/gif.latex?\lambda" /> 값을 늘린다.   
+***
+### 2. Evaluating a Hypothesis
+
+***
+### 3. Model Selection and Train/Validation/Test Sets
