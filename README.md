@@ -68,7 +68,7 @@
   - [Evaluating a Learning Algorithm](#evaluating-a-learning-algorithm)
     - [1. Deciding What to Try Next](#1-deciding-what-to-try-next)
     - [2. Evaluating a Hypothesis](#2-evaluating-a-hypothesis)
-    - [3. Model Selection and Train/Validation/Test Sets](#3-model-selection-and-train/validation/vest-sets)
+    - [3. Model Selection and Train/Validation/Test Sets](#3-model-selection-and-trainvalidationtest-sets)
 
 # Week1
 ## Introduction
