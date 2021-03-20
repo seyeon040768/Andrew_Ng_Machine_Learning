@@ -932,7 +932,7 @@ Octave 코드는 위와 같다.
 
 가설을 평가하는 일반적인 방법은 데이터중 70%를 학습 데이터로, 30%를 테스트 데이터로 나누는 것이다.
 
-<img src="./Week6/train_data.png" width="30%"><img src="./Week6/test_data.png" width="30%">
+<img src="./Week6/train_data.png" width="15%"><img src="./Week6/test_data.png" width="25%">
 
 위와 같이 테스트 데이터는 기존 표현에 test라는 첨자를 붙여 구별한다.
 
@@ -946,7 +946,7 @@ Octave 코드는 위와 같다.
 
 로지스틱 회귀도 마찬가지로 <img src="https://latex.codecogs.com/gif.latex?\theta" />를 최소화 한다음에 아래와 같은 식으로 에러는 계산한다.
 
-<img src="./Week6/test_cost.png" width="30%">
+<img src="./Week6/test_cost.png" width="50%">
 
 ***
 ### 3. Model Selection and Train/Validation/Test Sets
