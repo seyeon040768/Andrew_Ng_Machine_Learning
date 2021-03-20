@@ -927,5 +927,26 @@ Octave 코드는 위와 같다.
 ***
 ### 2. Evaluating a Hypothesis
 
+만약 overfitting이나 underfitting이 일어났는지 알아보고 싶거나 가설을 평가해보고 싶다면 가설을 그래프로 그리면 된다.   
+하지만 만약 feature의 수가 너무 많다면 그래프에 그리기 어려울 수도 있다.
+
+가설을 평가하는 일반적인 방법은 데이터중 70%를 학습 데이터로, 30%를 테스트 데이터로 나누는 것이다.
+
+<img src="./Week6/train_data.png" width="30%"><img src="./Week6/test_data.png" width="30%">
+
+위와 같이 테스트 데이터는 기존 표현에 test라는 첨자를 붙여 구별한다.
+
+**선형 회귀를 학습/테스트**
+
+주어진 데이터의 70%를 학습 데이터로 설정한 뒤 에러는 최소화 하는 <img src="https://latex.codecogs.com/gif.latex?\theta" /> 값을 구한다.
+
+그리고 남은 데이터로 에러를 구한다.
+
+**로지스틱 회귀를 학습/테스트**
+
+로지스틱 회귀도 마찬가지로 <img src="https://latex.codecogs.com/gif.latex?\theta" />를 최소화 한다음에 아래와 같은 식으로 에러는 계산한다.
+
+<img src="./Week6/test_cost.png" width="30%">
+
 ***
 ### 3. Model Selection and Train/Validation/Test Sets
