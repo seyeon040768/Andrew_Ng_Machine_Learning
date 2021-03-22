@@ -950,3 +950,25 @@ Octave 코드는 위와 같다.
 
 ***
 ### 3. Model Selection and Train/Validation/Test Sets
+
+만약 overfitting인 가설이라면 비용 함수의 값이 일반적인 비용 함수의 값보다 작을 것이다.
+
+<img src="./Week6/hypothesises.png" width="30%">
+
+위와 같은 가설중 어떤 가설이 가장 적합한지 알아보고 싶을 때에는 주어진 데이터를 학습, 크로스검증, 테스트 데이터로 3가지로 나누면 된다.
+
+<img src="./Week6/data.png" width="30%">
+
+위와 같은 데이터가 있을 때, 학습 데이터를 전체의 60%, 크로스검증 데이터를 20%, 테스트 데이터 20%로 나누면 된다.   
+그리고 아래와 같이 표현한다.
+
+<img src="./Week6/data_divide.png" width="30%">
+
+식은 아래와 같이 설정할 수 있다.
+
+<img src="./Week6/train_cv_test.png" width="30%">
+
+크로스검증을 실제로 사용하는 방법은 아래와 같다.
+
+1. 다차원의 가설 중 크로스검증 데이터와의 비용이 가장 낮은 가설을 선택한다.   
+2. 이 모델이 얼마나 일반화 되었는데 테스트 데이터로 검증한다.
